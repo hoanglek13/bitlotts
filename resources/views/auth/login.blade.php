@@ -58,7 +58,8 @@
                                     Forgot Your Password?
                                 </a>
 
-                                <a href="{{ url('login/facebook') }}">FB Login</a>
+                                <a href="{{ url('login/facebook') }}">Facebook</a>
+                                <a href="{{ url('login/google') }}">Google</a>
                             </div>
                         </div>
                     </form>

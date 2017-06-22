@@ -43,8 +43,8 @@ class LoginController extends Controller
 
     public function socialLogin($provider)
     {
-        return Socialite::driver($provider)
-            ->scopes(['email', 'public_profile', 'user_friends'])->redirect();
+        // return Socialite::driver($provider)->scopes(['email', 'public_profile', 'user_friends'])->redirect();
+        return Socialite::driver($provider)->redirect();
     }
 
     public function loginCallback($provider)
@@ -77,9 +77,9 @@ class LoginController extends Controller
                 'social' => $provider
             ]);
         }
-//        else{
-//            $user = User::findOrFail($socialUser->user_id);
-//        }
+        // else{
+        //     $user = User::findOrFail($socialUser->user_id);
+        // }
 
         // Login and "remember" the given user...
         // Auth::login($user, true);
