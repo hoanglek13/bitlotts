@@ -17,8 +17,29 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', function (){
+    return redirect('/dashboard');
+});
 
 
+/*
+|--------------------------------------------------------------------------
+| Social Login
+|--------------------------------------------------------------------------
+|
+| Here is the where for internal network login like Facebook, Google
+|
+*/
 Route::get('/login/{provider}', 'Auth\LoginController@socialLogin');
 Route::get('/login/callback/{provider}', 'Auth\LoginController@loginCallback');
+
+
+/*
+|--------------------------------------------------------------------------
+| User Dashboard
+|--------------------------------------------------------------------------
+|
+| Here is the where for user area some features
+|
+*/
+Route::get('/dashboard', 'AccountController@dashboard');

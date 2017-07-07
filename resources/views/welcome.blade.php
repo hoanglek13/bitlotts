@@ -152,7 +152,7 @@
                             <div class="row m0 inner">
                                 <div class="col-sm-12 col-md-6 img">
                                     <div class="row">
-                                        <img src="assets/images/about/service1.png" alt="" class="img-responsive">
+                                        <img src="style/images/about/service1.png" alt="" class="img-responsive">
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 content">
@@ -170,7 +170,7 @@
                             <div class="row m0 inner">
                                 <div class="col-sm-12 col-md-6 img">
                                     <div class="row">
-                                        <img src="assets/images/about/service2.png" alt="" class="img-responsive">
+                                        <img src="style/images/about/service2.png" alt="" class="img-responsive">
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 content">
@@ -188,7 +188,7 @@
                             <div class="row m0 inner">
                                 <div class="col-sm-12 col-md-6 img">
                                     <div class="row">
-                                        <img src="assets/images/about/service3.png" alt="" class="img-responsive">
+                                        <img src="style/images/about/service3.png" alt="" class="img-responsive">
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 content">
@@ -206,7 +206,7 @@
                             <div class="row m0 inner">
                                 <div class="col-sm-12 col-md-6 img">
                                     <div class="row">
-                                        <img src="assets/images/about/service4.png" alt="" class="img-responsive">
+                                        <img src="style/images/about/service4.png" alt="" class="img-responsive">
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 content">
@@ -224,7 +224,7 @@
                             <div class="row m0 inner">
                                 <div class="col-sm-12 col-md-6 img">
                                     <div class="row">
-                                        <img src="assets/images/about/service5.png" alt="" class="img-responsive">
+                                        <img src="style/images/about/service5.png" alt="" class="img-responsive">
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 content">
@@ -242,7 +242,7 @@
                             <div class="row m0 inner">
                                 <div class="col-sm-12 col-md-6 img">
                                     <div class="row">
-                                        <img src="assets/images/about/service6.png" alt="" class="img-responsive">
+                                        <img src="style/images/about/service6.png" alt="" class="img-responsive">
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-6 content">
@@ -269,7 +269,7 @@
                 <div class="col-sm-6 col-md-3 team_member">
                     <div class="row m0 inner">
                         <a href="#">
-                            <div class="row m0 image"><img src="assets/images/team/1.jpg" alt="" class="img-responsive"></div>
+                            <div class="row m0 image"><img src="style/images/team/1.jpg" alt="" class="img-responsive"></div>
                             <div class="row m0 title_row">
                                 <h5>JOSH DOE</h5>
                                 <div class="row m0 pos">Maintenance</div>
@@ -286,7 +286,7 @@
                 <div class="col-sm-6 col-md-3 team_member">
                     <div class="row m0 inner">
                         <a href="#">
-                            <div class="row m0 image"><img src="assets/images/team/2.jpg" alt="" class="img-responsive"></div>
+                            <div class="row m0 image"><img src="style/images/team/2.jpg" alt="" class="img-responsive"></div>
                             <div class="row m0 title_row">
                                 <h5>PATRIC JAX</h5>
                                 <div class="row m0 pos">Installation</div>
@@ -303,7 +303,7 @@
                 <div class="col-sm-6 col-md-3 team_member">
                     <div class="row m0 inner">
                         <a href="#">
-                            <div class="row m0 image"><img src="assets/images/team/3.jpg" alt="" class="img-responsive"></div>
+                            <div class="row m0 image"><img src="style/images/team/3.jpg" alt="" class="img-responsive"></div>
                             <div class="row m0 title_row">
                                 <h5>MAXIMS KOLOUN</h5>
                                 <div class="row m0 pos">Repairing</div>
@@ -320,7 +320,7 @@
                 <div class="col-sm-6 col-md-3 team_member">
                     <div class="row m0 inner">
                         <a href="#">
-                            <div class="row m0 image"><img src="assets/images/team/4.jpg" alt="" class="img-responsive"></div>
+                            <div class="row m0 image"><img src="style/images/team/4.jpg" alt="" class="img-responsive"></div>
                             <div class="row m0 title_row">
                                 <h5>ALEX MODH</h5>
                                 <div class="row m0 pos">Inspection</div>
@@ -367,7 +367,7 @@
                                                 Etiam tristique sagittis pulvinar. Cras at lectus rho scelerisque dui ut, bibendum ante. Ut vulputate dit neque eget lobortis. <br><br>Nam eleifend sollicitudin nulla quis luctus nam Interdum et malesuada fames.
                                             </div>
                                             <div class="media authorMeta">
-                                                <div class="media-left"><img src="assets/images/team/2.png" alt=""></div>
+                                                <div class="media-left"><img src="style/images/team/2.png" alt=""></div>
                                                 <div class="media-body media-middle">
                                                     <h5>ASIA GHLOWN</h5>
                                                     <div class="row designation">Michigan</div>
@@ -383,7 +383,7 @@
                                                 Etiam tristique sagittis pulvinar. Cras at lectus rho scelerisque dui ut, bibendum ante. Ut vulputate dit neque eget lobortis. <br><br>Nam eleifend sollicitudin nulla quis luctus nam Interdum et malesuada fames.
                                             </div>
                                             <div class="media authorMeta">
-                                                <div class="media-left"><img src="assets/images/team/1.png" alt=""></div>
+                                                <div class="media-left"><img src="style/images/team/1.png" alt=""></div>
                                                 <div class="media-body media-middle">
                                                     <h5>DAVID MAXIMS</h5>
                                                     <div class="row designation">New York</div>
@@ -399,7 +399,7 @@
                                                 Etiam tristique sagittis pulvinar. Cras at lectus rho scelerisque dui ut, bibendum ante. Ut vulputate dit neque eget lobortis. <br><br>Nam eleifend sollicitudin nulla quis luctus nam Interdum et malesuada fames.
                                             </div>
                                             <div class="media authorMeta">
-                                                <div class="media-left"><img src="assets/images/team/3.png" alt=""></div>
+                                                <div class="media-left"><img src="style/images/team/3.png" alt=""></div>
                                                 <div class="media-body media-middle">
                                                     <h5>ALEX WHITE</h5>
                                                     <div class="row designation">California</div>
@@ -415,7 +415,7 @@
                                                 Etiam tristique sagittis pulvinar. Cras at lectus rho scelerisque dui ut, bibendum ante. Ut vulputate dit neque eget lobortis. <br><br>Nam eleifend sollicitudin nulla quis luctus nam Interdum et malesuada fames.
                                             </div>
                                             <div class="media authorMeta">
-                                                <div class="media-left"><img src="assets/images/team/4.png" alt=""></div>
+                                                <div class="media-left"><img src="style/images/team/4.png" alt=""></div>
                                                 <div class="media-body media-middle">
                                                     <h5>Emily Nelson</h5>
                                                     <div class="row designation">Los Angeles</div>
@@ -436,7 +436,7 @@
                     <div class="row m0">
                         <div class="media">
                             <div class="media-left">
-                                <a href="#"><img src="assets/images/blog/1.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="style/images/blog/1.jpg" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="media-body">
                                 <a href="#">
@@ -448,7 +448,7 @@
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <a href="#"><img src="assets/images/blog/3.jpg" alt="" class="img-reponsive"></a>
+                                <a href="#"><img src="style/images/blog/3.jpg" alt="" class="img-reponsive"></a>
                             </div>
                             <div class="media-body">
                                 <a href="#">
@@ -658,29 +658,29 @@
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCmS2_uGtUvlEkj5nnWiFA6Fem8TJeU5tI"></script>
 
     <!--Bootstrap JS-->
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('style/js/bootstrap.min.js') }}"></script>
 
     <!-- Scrolling Nav JavaScript -->
-    <script src="{{ asset('assets/js/jquery.easing.min.js') }}"></script>
+    <script src="{{ asset('style/js/jquery.easing.min.js') }}"></script>
 
     <!--Owl Carousel-->
-    <script src="{{ asset('assets/vendors/owl.carousel/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('style/vendors/owl.carousel/js/owl.carousel.min.js') }}"></script>
     <!--FlexSlider-->
-    <script src="{{ asset('assets/vendors/flexslider/jquery.flexslider-min.js') }}"></script>
+    <script src="{{ asset('style/vendors/flexslider/jquery.flexslider-min.js') }}"></script>
     <!--RV-->
-    <script src="{{ asset('assets/vendors/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
-    <script src="{{ asset('assets/vendors/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
+    <script src="{{ asset('style/vendors/rs-plugin/js/jquery.themepunch.tools.min.js') }}"></script>
+    <script src="{{ asset('style/vendors/rs-plugin/js/jquery.themepunch.revolution.min.js') }}"></script>
 
     <!--Form Validation-->
-    <script src="{{ asset('assets/js/jquery.form.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.validate.min.js') }}"></script>
+    <script src="{{ asset('style/js/jquery.form.js') }}"></script>
+    <script src="{{ asset('style/js/jquery.validate.min.js') }}"></script>
 
     <!--Main JS-->
-    <script src="{{ asset('assets/js/google-map.js') }}"></script>
-    <script src="{{ asset('assets/js/notifyMe.js') }}"></script>
-    <script src="{{ asset('assets/js/contact.js') }}"></script>
-    <script src="{{ asset('assets/js/revs.js') }}"></script>
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('style/js/google-map.js') }}"></script>
+    <script src="{{ asset('style/js/notifyMe.js') }}"></script>
+    <script src="{{ asset('style/js/contact.js') }}"></script>
+    <script src="{{ asset('style/js/revs.js') }}"></script>
+    <script src="{{ asset('style/js/main.js') }}"></script>
 
     @if($errors->has('email') || $errors->has('password'))
         <script>

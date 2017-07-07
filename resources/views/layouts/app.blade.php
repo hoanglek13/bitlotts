@@ -14,24 +14,24 @@
     <title>{{ config('app.name') }}</title>
 
     <!--Favicon-->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="style/images/favicon.png">
 
     <!--Mechanic Styles-->
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('style/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('style/css/responsive.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-social.css') }}">
     <link href="{{ asset('plugins/bower_components/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <link rel="stylesheet" type="text/css" href="assets/vendors/rs-plugin/css/settings-ie8.css" media="screen">
-    <script src="assets/js/html5shiv.min.js"></script>
-    <script src="assets/js/respond.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style/vendors/rs-plugin/css/settings-ie8.css" media="screen">
+    <script src="style/js/html5shiv.min.js"></script>
+    <script src="style/js/respond.min.js"></script>
     <![endif]-->
 
     <!--jQuery, Bootstrap and other vendor JS-->
     <!--jQuery-->
-    <script src="{{ asset('assets/js/jquery-2.1.3.min.js') }}"></script>
+    <script src="{{ asset('style/js/jquery-2.1.3.min.js') }}"></script>
 
 </head>
 
