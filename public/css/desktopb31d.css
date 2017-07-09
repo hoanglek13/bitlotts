@@ -1,0 +1,1165 @@
+
+/* ------------------------------------------- */
+/* SHARED PRINT & SCREEN STYLES */
+/* ------------------------------------------- */
+
+/* GLOBALS */
+
+hr{height:0;background:transparent;border:0;border-bottom:1px dashed #BBB;width:94%}
+sup{padding:0;margin:0;font-size:90%;line-height:normal}
+
+a{color:#06E;text-decoration:none}
+a:hover{color:#F90}
+a img{border:0}
+.infoBox:hover p a{color:#c1ac11!important}
+.clear{clear:both;margin:0;padding:0}
+.clearRight {clear: right;}
+.floatLeft{float:left}
+.floatRight{float:right}
+.imgL, .imageFloatLeft{float:left;margin:0 10px 10px 0 !important}
+.imgR, .imageFloatRight{float:right;margin:0 0 10px 10px !important}
+.centred{margin:auto !important;text-align:center !important}
+.noLRMargin{margin-left:0 !important;margin-right:0 !important}
+.padded{padding:18px !important}
+.paddedLight{padding:8px !important}
+.paddedMid{padding:12px !important}
+.paddedBig{padding:20px !important}
+.smallerHeading{font-size:15px}
+.bigYellowTxt{color:#FD0 !important;font-size:24px !important;font-weight:bold !important}
+.bigRedTxt{color:#F00 !important;font-size:18px !important;font-weight:bold !important}
+.whiteHeading{color:#FFF !important;font-size:20px;font-weight:bold}
+.margined{margin:6px !important}
+.fluid{display:inline-block;*display:inline;zoom:1;width:auto !important}
+.nowrap{white-space:nowrap !important}
+input.curved{padding:5px;border-radius:6px;border:2px solid #FFF;outline:none}
+input.curved:focus{border:2px solid #FB0}
+.pix1{border:1px solid #CCC !important}
+.pix1:focus{border:1px solid #FB0 !important;box-shadow:#FB0 0 0 10px}
+input[type="button"].button-blue, input[type="submit"].button-blue{line-height:16px;transition:none;-webkit-transition:none}
+input[type="button"].button-yellow, input[type="submit"].button-yellow{transition:none;-webkit-transition:none}
+
+
+
+/* GENERAL CONTENT */
+
+.homeBox{background:#FFF;position:relative;float:left;border-radius:6px;padding:0 20px 20px;margin:0 20px 20px 0;width:260px;font-size:12px;color:#333;line-height:24px;text-align:right;overflow:hidden}
+.homeBox p, .homeBox h2, .homeBox h3, .homeBox .Title2, .homeBox .Title3{text-align:left}
+.homeBox.double{width:580px}
+.homeBox.double img{display:block;margin-bottom:10px}
+.resultsBox{background:url(../images/template/box-bg-sprite.jpg) #FFF 0 bottom no-repeat; background-size: 1100px}
+.ticketsBox{background:url(../images/template/box-bg-sprite.jpg) #FFF -380px bottom no-repeat}
+.raffleBox{background:url(../images/template/box-bg-sprite.jpg) #FFF -737px bottom no-repeat}
+.appsBox{background:url(../images/template/box-bg-sprite.jpg) #FFF -1050px bottom no-repeat; padding-left:90px;width:190px}
+.appsBox .button-blue{width:40px;float:left;margin-left:5px}
+.twoCol{width:48%}
+.threeCol{width:31%}
+.fourCol{width:23%;margin-right:1%;float:left}
+.firstCol{padding-right:2%}
+.firstColalt{margin-left:3%}
+.lastCol{padding-left:2%}
+.doubleCol{width:67%}
+.padding-big{width:43%;padding:3%}
+.archiveCol{background:#EEE;position:relative;width:20%;height:440px;border-radius:6px;padding:10px 1%;margin:2px 1%}
+.dateAdded{color:#AAA;font-size:11px}
+.med-text{font-size:18px!important}
+.main p, .mainwide p{margin:15px 0 10px;line-height:24px;font-size:13px}
+.flexContainer {display: table; display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap;}
+.sticky {position: fixed !important; top: 0 !important; width: 100% !important; left: 0 !important; -webkit-box-sizing: border-box; box-sizing: border-box; border-radius: 0 !important; z-index: 99999;}
+
+
+.button-yellow{
+	background:url(../images/template/arrow.png) #FC0 right center no-repeat;
+	background:url(../images/template/arrow.png) right center no-repeat, -moz-linear-gradient(top,  #ffde00 0%, #ffa200 97%, #ffd800 97%);
+	background:url(../images/template/arrow.png) right center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffde00), color-stop(97%,#ffa200), color-stop(97%,#ffd800));
+	background:url(../images/template/arrow.png) right center no-repeat, -webkit-linear-gradient(top,  #ffde00 0%,#ffa200 97%,#ffd800 97%);
+	background:url(../images/template/arrow.png) right center no-repeat, linear-gradient(to bottom,  #ffde00 0%,#ffa200 97%,#ffd800 97%);
+	position:relative;padding:12px 45px 12px 25px;border-bottom:5px solid #ba4a00;border-radius:8px;font:bold 14px/30px arial, sans-serif;outline:none;text-decoration:none !important;
+	text-align:center;color:#333 !important;text-shadow:#FF0 0 1px 0;box-shadow:#333 0 3px 5px -3px;top:0;transition:all .1s linear;-webkit-transition:all .1s linear;word-spacing:-1px;cursor:pointer;
+}
+.button-yellow:hover{top:2px;border-bottom:3px solid #ba4a00;box-shadow:#333 0 3px 4px -4px;color:#333 !important}
+.button-yellow:active{top:4px;border-bottom:1px solid #ba4a00;box-shadow:#333 0 3px 3px -4px;transition:none;-webkit-transition:none;color:#D30 !important}
+.button-yellow.block{display:block;height:18px;line-height:20px}
+.button-yellow.fixie{width:180px;padding:12px 40px 12px 20px}
+.button-yellow.fixieNext{margin-top:-10px}
+input.button-yellow:hover{margin-top:1px;margin-bottom:1px}
+input.button-yellow:active{margin-bottom:3px}
+.button-blue{
+	background:#0097fb;
+	background:-moz-linear-gradient(top,  #0097fb 0%, #006bb3 97%, #0082d9 97%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#0097fb), color-stop(97%,#006bb3), color-stop(97%,#0082d9));
+	background:-webkit-linear-gradient(top,  #0097fb 0%,#006bb3 97%,#0082d9 97%);
+	background:linear-gradient(to bottom,  #0097fb 0%,#006bb3 97%,#0082d9 97%);
+	position:relative;padding:9px 24px;border-bottom:5px solid #003f8d;border-radius:8px;font:bold 12px/30px arial, sans-serif;outline:none;text-decoration:none !important;
+	text-decoration:none;text-align:center;color:#FFF !important;text-shadow:#333 0 -1px 1px;box-shadow:#333 0 3px 5px -3px;top:0;transition:all .1s linear;-webkit-transition:all .1s linear;cursor:pointer;
+}
+.button-blue:hover{top:2px;border-bottom:3px solid #003f8d;box-shadow:#333 0 3px 4px -4px;color:#FFF !important;margin-bottom:2px}
+.button-blue:active{top:4px;border-bottom:1px solid #003f8d;box-shadow:#333 0 3px 3px -4px;transition:none;-webkit-transition:none;color:#FD0 !important;margin-bottom:4px}
+.button-blue.block{display:block;height:15px;line-height:15px}
+.button-blue.skinny, .button-greyed.skinny{padding:5px 20px}
+.button-blue.morePadding{padding:9px 60px}
+.button-blue.fixie{width:200px}
+.button-blue.selected:hover{top:3px !important}
+.button-blue.selected:active{top:4px !important;border-bottom:1px solid #ba4a00;box-shadow:#333 0 3px 3px -4px;transition:none;-webkit-transition:none;color:#D30 !important}
+.button-blue.disabled{opacity:0.9;background:#EEE;border-bottom:4px solid #CCC;color:#CCC !important;text-shadow:#FFF 0 1px 0;margin:0;top:0;box-shadow:#333 0 3px 3px -4px}
+.button-greyed{
+	background-color:#EEE;border:1px solid #CCC;color:#AAA !important;position:relative;padding:9px 24px;border-radius:8px;font:bold 12px/30px arial, sans-serif;outline:none;text-decoration:none !important;
+	text-align:center;text-shadow:#FFF 0 1px 0;top:0;transition:all .1s linear;-webkit-transition:all .1s linear;
+}
+.button-flat{background:#107AD4;position:relative;padding:9px 20px;border-radius:8px;font:bold 12px/30px arial, sans-serif;outline:none;text-decoration:none !important;text-decoration:none;text-align:center;color:#FFF !important;top:0;transition:all .1s linear;-webkit-transition:all .1s linear;cursor:pointer}
+.button-flat:hover{background:#09F}
+.button-flat.block{display:block;padding:0 20px;margin:3px auto;width:120px}
+
+.table{background:#CCC;border:1px solid #AAA;position:relative;border-radius:8px;border-spacing:0;margin:10px auto;padding:2px;overflow:hidden}
+div.table{background:#EEE}
+.table th{background:url(../images/template/bg-sprite.png) #0159A3 repeat-x;position:relative;padding:18px 14px;color:#FFF;text-shadow:#333 0 -1px 1px;box-shadow:inset rgba(255,255,255,0.6) 0 1px 0}
+.table tr.sub th{background:#555}
+.table td, .tableCell{background:#EEE;padding:12px}
+.tableCell .tk {color: #F00; font-size: 22px; line-height: 10px; position: relative; top: 4px;}
+.table tr.alt td , .subTable tr.alt td{background-color:#CCC}
+.table tr.totals td{background-color:#014478;color:#FFF}
+.table tr.totals td a{color:#FD0}
+.table tr.totals td a:hover{text-decoration:underline;color:#FF0}
+.table.lotto tr.totals td{background-color:#600}
+.table.euromillions tr.totals td{background-color:#006}
+.table.thunderball tr.totals td{background-color:#602}
+.table tr:first-child td:first-child, .table tr:first-child th:first-child{border-top-left-radius:6px}
+.table tr:first-child td:last-child, .table tr:first-child th:last-child{border-top-right-radius:6px}
+.table tr:last-child td:first-child{border-bottom-left-radius:6px}
+.table tr:last-child td:last-child{border-bottom-right-radius:6px}
+.table.checkerTable td{padding:10px}
+.table.lotto tr.won td{background-color:#900;color:#FFF}
+.table.euromillions tr.won td{background-color:#367bb7;color:#FFF}
+.table.thunderball tr.won td{background-color:#906;color:#FFF}
+.table.health tr.won td{background-color:#F60;color:#FFF}
+.table.irish tr.won td{background-color:#6c9930;color:#FFF}
+.table.irish tr.totals td{background-color:#41672D}
+.subTable th{background:#777 !important;border-radius:0 !important;padding:8px;text-shadow:none}
+.subTable td{border-radius:0 !important;padding:8px}
+table.table.euromillions.prizestats{font-size:12px;line-height:16px}
+.nowrap{white-space:nowrap}
+.rightalign{text-align:right}
+    
+ul.bullet{background:#EEE;border-left:10px solid #FC0;position:relative;text-align:left;list-style-type:none;padding:5px 20px;border-radius:6px}
+ul.bullet.noBg{background:none;border:0}
+ul.bullet.lotto, .notice-box.lotto, .error-box.lotto{border-left:10px solid #B00}
+ul.bullet.euromillions, .notice-box.euromillions, .error-box.euromillions{border-left:10px solid #09F}
+ul.bullet.thunderball, .notice-box.thunderball, .error-box.thunderball{border-left:10px solid #A9105A}
+ul.bullet.irish, .notice-box.irish, .error-box.irish{border-left:10px solid #690}
+ul.bullet.health, .notice-box.health, .error-box.health{border-left:10px solid #F60}
+ul.bullet.hotpicks, .notice-box.hotpicks, .error-box.hotpicks{border-left:10px solid #C12A00}
+ul.bullet.free, .notice-box.free, .error-box.free{border-left:10px solid #00d594}
+ul.bullet li{background:url(../images/template/spritesheet.png) transparent 0 -730px no-repeat;position:relative;font:normal 12px/20px arial, sans-serif;padding-left:30px;overflow:hidden;margin-top:14px;margin-bottom:14px}
+ul.bullet.bigger li{font-size:14px}
+ul.bullet li.title{background:none;padding-left:0;color:#093E87;font-size:120% !important;font-weight:bold}
+ul.bullet.sub{background:none;border:0;list-style-type:disc;padding:5px 10px}
+ul.bullet.sub li{background:none;line-height:16px;overflow:visible;padding:5px;margin:0 0 0 10px}
+ul.bullet.bordered{border-top:1px solid #FC0;border-bottom:1px solid #FC0;border-right:1px solid #FC0}
+
+.notice-box, .error-box{background:url(../images/template/icon-info.png) #014478 10px center no-repeat;position:relative;padding:20px 20px 20px 80px;border-left:10px solid #FC0;border-radius:6px;font:14px/24px arial;margin:10px auto 20px;color:#FFF;text-align:left}
+.error-box{background:url(../images/template/icon-error.png) #014478 10px center no-repeat}
+.notice-box.ok{background:url(../images/template/icon-ok.png) #014478 10px center no-repeat}
+.notice-box a, .error-box a{color:#FC0}
+.notice-box a:hover, .error-box a:hover{color:#FF0}
+.notice-box.searcher{background-image:url(../images/template/icon-search.png)}
+.notice-box .Title2, .notice-box .Title3{color:#FFF}
+.postit{position:absolute;top:330px;right:10px;z-index:99}
+#promo-div{width:468px;height:80px;text-align:center;margin:10px auto}
+#promo-div img{border-radius:6px}
+.formError{font-size:11px;color:#F00;padding:5px 0}
+.raffleSearch{width:200px;outline:none}
+.letterStyle{background:#FFD;color:#000;font-family:"Times New Roman", Times, serif;padding:40px}
+
+/* POLLS */
+.pollBox {background-image: url(../images/icons/ballot-box.png); background-size: 80px; border-left:10px solid #FC0; padding: 20px 20px 0 110px; border-radius: 8px; color: #FFF; margin: 0 20px 20px 0;}
+.poleAnswerResult {background: #FC0; height: 16px;}
+
+
+/* INFO */
+
+.infoBox, .news-large p, .news-small{
+	background:#F4F4F4;
+	background:-moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #eee 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#eee));
+	background:-webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#eee 100%);
+	background:linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#eee 100%);
+	position:relative;display:inline-block;*display:inline;zoom:1;
+	margin-right:-4px;margin-left:20px;margin-top:20px;border-radius:8px;border:1px solid #EEE;padding:10px 20px 0;vertical-align:top;
+}
+.infoBox.w50{width:398px}
+.infoBox.w33{width:244px;margin-left:21px}
+.infoBox.w100{width:858px;margin-left:0}
+.infoBox.first{margin-left:0}
+.infoBox h2{margin-top:5px}
+.infoBox h2 a{background:url(../images/template/spritesheet.png) no-repeat 0 -729px;padding-left:30px}
+.infoBox h2 a:before{content:'';position:absolute;width:100%;height:100%;left:0;top:0}
+.infoBox.hovery:hover{background:#0158A2;color:#FFF;cursor:pointer}
+.infoBox.hovery:hover h2, .infoBox.hovery:hover h2:hover{color:#FFF}
+.infoBox.hovery:hover h2 a, .infoBox.hovery:hover h2 a:hover{color:#FC0 !important}
+.infoBox.hovery:hover .bullet li{color:#333}
+.infoBoxCol{position:relative;display:inline-block;*display:inline;zoom:1;vertical-align:top;margin-right:-4px}
+.infoBoxCol.w50{width:398px}
+
+
+/* NEWS */
+
+.news-large{clear:both;padding:10px 0;cursor:pointer}
+.news-large img, .news-small img{border-top-left-radius:6px;border-top-right-radius:6px;display:block}
+.news-title{background-color:#0158A2;position:relative;padding:4px 0;overflow:hidden;z-index:9}
+.news-title h2{margin:8px 0 0 0;color:#FFF}
+.news-title .date{color:#9CF;font-size:12px}
+.news-title .calendar{margin:0 10px}
+.news-large p{margin:0;border-radius:0 0 6px 6px;padding:30px 20px 20px;top:-10px;z-index:1}
+.news-large:hover h2{color:#FC0}
+.news-large:hover p, .news-small:hover{background:#014478;color:#FFF}
+.news-small{width:288px;height:420px;overflow:hidden;margin:0 15px 15px 0;padding:0}
+.news-small.last{margin-right:0}
+.news-small h3, .news-small p, .news-small h2{margin:0;padding:20px 20px 0;line-height:20px}
+.news-small h2{margin-bottom:10px}
+.news-small a.button-blue{position:absolute;right:12px;margin-top:370px}
+.news-small .date{position:absolute;bottom:20px;left:20px;font-size:11px;color:#999}
+.news-small.smaller{height:80px;border-left:10px solid #FC0;width:279px}
+.news-small.smaller h3{font-size:16px !important;padding:10px 15px !important}
+.news-small.smaller h3 a{color:#093E87}
+.news-small:hover h3, .news-small:hover h3 a, .news-small:hover h2, .news-small:hover h2 a{color:#FC0}
+.news-small:hover .date{color:#CCC}
+.news-small.smaller .date{left:15px;bottom:10px}
+
+
+
+/* RESULTS */
+
+.abstract{background-image:url(../images/template/abstract.png);background-repeat:repeat-x;background-position:top;position:relative;border-radius:6px;color:#FFF}
+.bgpowerball{background-image:url(../images/template/powerball.png)}
+.bgmega-millions{background-image:url(../images/template/megamillions.png)}
+.bgsuperenalotto{background-image:url(../images/template/superenalotto.jpg);background-position:center}
+.homeResults{height:280px;width:620px;margin:0 20px 20px 0;float:left}
+.homeResultsShort{height:280px;width:300px;margin-bottom:20px;text-align:center;float:left}
+
+.resultBox{background:url(../images/template/bg-sprite.png) #FFFFFF 0 -100px repeat-x !important;position:relative;border-radius:6px;width:100%;border:1px solid #BBB;overflow:hidden;margin-bottom:30px !important}
+.resultBox.shorter{width:700px;background-position:0 -200px !important;background-color:#D0D0D0 !important}
+.resultBox.withSide{background-position:0 -200px !important;background-color:#D0D0D0 !important;height:130px}
+.resultBox.withSide .title{font-size:24px;font-weight:700;margin:0 0 5px 8px}
+.resultBox.past{background-position:0 -200px !important;background-color:#D0D0D0 !important;margin-bottom:20px !important}
+.latestHeader{background:url(../images/template/bg-sprite.png) repeat-x;position:relative;width:100%;height:60px;font:bold 24px/60px arial, sans-serif;text-indent:20px;text-shadow:#333 0 -1px 0;color:#FFF;padding:0;margin:0}
+.sideHeader{background:url(../images/template/bg-sprite.png) repeat-x;position:relative;width:190px;font:bold 20px/20px arial, sans-serif;letter-spacing:-1px;color:#FFF;padding:10px 0;margin:0 20px 0 0;text-align:center;float:left;height:100%}
+.sideHeader h3{margin:0}
+.sideHeader a{color:#FFF;text-decoration:underline}
+.sideHeader a:hover{color:#FC0}
+.sideHeader.checkerSide{height:78px;line-height:78px}
+.latestHeader.lotto, .sideHeader.lotto, .table.lotto th{background-position:0 -400px;background-color:#960505}
+.latestHeader.euromillions, .sideHeader.euromillions, .table.euromillions th{background-position:0 -600px;background-color:#005D9D}
+.latestHeader.thunderball, .sideHeader.thunderball, .table.thunderball th{background-position:0 -800px;background-color:#690037}
+.latestHeader.health, .sideHeader.health, .table.health th{background-position:0 -1000px;background-color:#AE2200}
+.latestHeader.hotpicks, .sideHeader.hotpicks, .table.hotpicks th{background-position:0 -1030px;background-color:#AE2200}
+.latestHeader.irish, .sideHeader.irish, .latestHeader.dream, .sideHeader.dream, .table.irish th, .table.dream th{background-position:0 -1200px;background-color:#538539}
+.latestHeader.postcode, .sideHeader.postcode, .latestHeader.daily, .sideHeader.daily, .table.daily th, .table.postcode th{background-position:0 -1400px;background-color:#FF8400}
+.latestHeader.free, .sideHeader.free, .table.free th{background-position:0 -1600px;background-color:#00cb8d;text-shadow:0 1px 0 #009668}
+.latestHeader.vault, .sideHeader.vault, .table.vault th{background:#46baff;background:-moz-linear-gradient(top,  #46baff 0%, #1296e5 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#46baff), color-stop(100%,#1296e5));background:-webkit-linear-gradient(top,  #46baff 0%,#1296e5 100%);background:-o-linear-gradient(top,  #46baff 0%,#1296e5 100%);background:-ms-linear-gradient(top,  #46baff 0%,#1296e5 100%);background:linear-gradient(to bottom,  #46baff 0%,#1296e5 100%)}
+.sideHeader.postcode{height:176px}
+
+.boxTitle{position:relative;color:#FFF;font:bold 20px/20px arial, sans-serif;display:inline-block;*display:inline;zoom:1;text-shadow:#333 0 -1px 1px;padding:18px 0 10px 16px}
+.boxResultsDate{font-size:15px}
+.jackpotCont{background:url(../images/template/bg-sprite.png) #900 0 -1946px repeat-x;position:absolute;top:16px;right:0;border-radius:8px 0 0 8px;font-size:14px;line-height:28px;text-align:center;padding:0 14px;display:inline;color:#FFF}
+.jackpotContNext{background:url(../images/template/bg-sprite.png) transparent 0 -1950px repeat-x;position:relative;font-style:italic;border-radius:6px;padding:5px 10px;font-size:14px}
+.nextBox{color:#FFF;font-size:16px;padding:10px 10px 10px 0;display:inline-block;*display:inline;zoom:1}
+.lottoBox, .powerballBox{background-color:#B00}
+.euromillionsBox, .mega-millionsBox{background-color:#0158A2}
+.thunderballBox{background-color:#CF0072}
+.irish-lottoBox, .superenalottoBox, .mega-senaBox{background-color:#5D8D36}
+.health-lotteryBox, .health-lottery-quick-pickBox{background-color:#FD5A00}
+.hotpicksBox{background-color:#C12A00}
+.freeBox{background-color:#009568}
+.freeWeeklyBox{background-color:#00ba82}
+
+
+.buyBox .nextBox{width:100%}
+.euromillionsBox .Title3{color:#FFF}
+
+.calendar{background:url(../images/template/spritesheet.png) transparent -250px 0 no-repeat;position:relative;width:102px;height:104px;margin:0 20px;text-align:center}
+.calendar.medium{background-position:-385px 0;width:92px;height:92px}
+.calendar.small{background-position:-249px -120px;width:53px;height:55px}
+.calMonth, .calDate{position:absolute;display:block;width:100%;color:#FFF;font:bold 14px/15px arial, sans-serif;top:11px;left:0;text-shadow:none}
+.calDate{color:#333;font-size:46px;line-height:46px;top:34px;letter-spacing:-1px}
+.calendar.medium .calMonth{top:11px}
+.calendar.medium .calDate{font-size:40px;top:28px}
+.calendar.small .calDate{font-size:24px;top:6px}
+.calendar sup{font-size:14px;letter-spacing:0}
+.calendar.small sup{font-size:12px;letter-spacing:0}
+.calendar.small sup{font-size:11px;letter-spacing:0}
+.resultsCont{float:left;padding-top:20px}
+.winnersRounded{position:relative;display:inline-block;padding:0 20px 0;font-size:13px;text-align:center;top:12px;line-height:16px}
+.resultsBottom{
+	background:rgb(100,100,100);
+	background:-moz-linear-gradient(top,  rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.1) 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.9)), color-stop(100%,rgba(0,0,0,0.1)));
+	background:-webkit-linear-gradient(top,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.1) 100%);
+	background:linear-gradient(to bottom,  rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.1) 100%);
+	position:absolute;bottom:0;left:0;border-radius:0 0 6px 6px;width:600px;height:50px;padding:10px;overflow:hidden;z-index:1;top:auto;
+}
+.resultsBottom.latest{background:#616161;width:100%;position:relative;padding:14px 20px 2px}
+.resultsBottom.latest div{color:#FFF;font-size:16px;font-weight:bold;line-height:18px;text-align:center;padding:0 30px 0 10px !important}
+.bottomText{position:relative;float:left;line-height:50px;padding:0 10px 20px 5px}
+.bottomText.bigger{display:inline-block;*display:inline;zoom:1;text-align:center;margin:auto;font-size:16px;font-weight:bold;width:235px}
+.bottomText.bigger2{display:block;text-align:center;font-size:16px;font-weight:bold;width:280px}
+.countdown{display:block;width:210px;margin:5px auto 20px;overflow:hidden}
+.counterPart{background:#FFF;position:relative;border-radius:6px;float:left;width:30px;height:40px;text-align:center;padding:5px 10px;margin-right:2px}
+.counterType{position:relative;font:12px/16px arial, sans-serif;color:#D00;display:block}
+.counterVal{position:relative;font:24px/24px arial, sans-serif;color:#333;display:block}
+.bigJackpot{font-size:40px;color:#FE0}
+.bigJackpotWhite{font-size:50px;line-height:50px;color:#FFF;font-weight:bold;letter-spacing:-3px}
+.resultJackpot{font-size:26px;color:#333;font-weight:bold;letter-spacing:-1px}
+.rolloverCorner{background:url(../images/template/spritesheet.png) transparent -250px -200px no-repeat;width:72px;height:72px;color:#FFF;font-weight:bold;position:absolute;top:60px;right:0;text-align:center}
+.rolloverCorner .inner{-moz-transform:rotate(45deg);-webkit-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);font-size:13px;width:100%;height:100%;line-height:14px;position:relative;top:2px}
+.rolloverCorner .inner span {font-size: 18px;}
+.rolloverCorner.curved{top:0;border-radius:0 5px 0 0}
+
+.raffle{background:#FFF;position:relative;float:left;width:127px;text-align:center;color:#014478;border-radius:6px;margin:5px;font:bold 14px/24px arial}
+.colour{background:#FFF;padding:10px;border-left:10px solid;overflow:hidden;border-radius:6px;margin:10px auto}
+.colour.aqua{border-color:aqua} .colour.blue{border-color:blue} .colour.gold{border-color:gold}
+.colour.grey{border-color:grey} .colour.jade{border-color:#0D9} .colour.lime{border-color:lime}
+.colour.navy{border-color:navy} .colour.pink{border-color:pink} .colour.plum{border-color:plum}
+.colour.rose{border-color:#F39} .colour.ruby{border-color:#C00} .colour.teal{border-color:teal}
+.millionaire.raffle{background:#014478;color:#FFF;letter-spacing:2px;padding:5px 10px;float:none;display:inline-block;*display:inline;zoom:1;font:bold 20px/30px arial;width:164px}
+.milli.raffle{background:#014478;color:#FFF; padding-left:5px; padding-right: 5px;}
+#raffleError{color:#B00;font-weight:bold;display:none;padding:20px;text-align:center}
+
+
+
+/* ------------------------------------------- */
+/* SCREEN STYLES */
+/* ------------------------------------------- */
+
+@media screen{
+
+/* GLOBALS */
+
+html, body, span, h1, h2, h3, h4, h5, h6, p, a, img, strong, ul, li, form, input{margin:0;padding:0;border:0;font-size:100%;}
+body{background:url(../images/template/site-bg.png) transparent repeat;font-family:arial, sans-serif;font-size:14px}
+
+h1{background:url(../images/template/bg-sprite.png) #0159A3 repeat-x;position:relative;color:#FFF;font-size:180%;padding:10px 20px;text-shadow:#333 0 -1px 1px;border-radius:6px 6px 0 0;width:100%;left:-20px;top:-20px}
+h1.home{background:none;color:#0158A2;padding:10px 0;text-shadow:none;float:left;left:0;top:0;width:auto}
+h2, h3, .Title2, .Title3{color:#093E87;font-size:140% !important;margin:30px 0 10px;font-weight:bold}
+h3, .Title3{font-size:120% !important}
+h4, h5, h6{font-size:110%}
+
+
+
+/* MAIN CONTAINERS */
+
+#siteContainer{position:relative;width:1210px;margin:auto;padding:20px 0}
+.main, .mainwide, .mainHome, .mainHomePromo{background:#FFF;float:right;margin:0;position:relative;padding:20px;width:900px;border-radius:8px;z-index:1}
+.mainHome{background:none;padding:0;width:941px}
+
+
+
+/* BREADCRUMBS */
+
+.breadcrumb{background:#014478;position:relative;top:-20px;left:-20px;padding-right:38px;width:100%;color:#FFF;font-size:11px;line-height:21px;height:21px;border:1px solid #014478;overflow:hidden; list-style:none;padding-left: 0;margin:0;}
+.breadcrumb a{background:#107AD4;position:relative;line-height:21px;padding:0 12px;color:#FFF;font-size:11px;float:left;margin-right:16px}
+.breadcrumb a:after{content:'';background:url(../images/template/spritesheet.png) transparent 0 -360px no-repeat;height:21px;width:14px;position:absolute;top:0;right:-13px}
+.breadcrumb a:before{content:'';background:url(../images/template/spritesheet.png) transparent 0 -420px no-repeat;height:21px;width:13px;position:absolute;top:0;left:-13px;padding:0}
+.breadcrumb a:hover{background:#29A9FF}
+.breadcrumb a:hover:after{background-position:0 -390px}
+.breadcrumb a:hover:before{background-position:0 -450px}
+
+
+
+/* HEADER & FOOTER */
+
+.hf{background:url(../images/template/hf-bg.jpg) #1079D4 top no-repeat;position:relative;width:100%;min-width:1210px;padding:0;left:0}
+.hf.header{background-position:center -150px;height:94px}
+.hf-inner{position:relative;width:1210px;margin:auto}
+.vault-header{background:url(../images/template/vault-header.jpg) no-repeat top #1079D4!important}
+
+.siteLogo, .siteLogo-hall, .siteLogo-xmas{float:left;padding-top:20px}
+.topRight{position:absolute;top:-8px;right:95px}
+.dateTime, .languageSelector, .topRight div {background:#0158A2;position:relative;float:right;color:#FFF;padding:11px 15px 6px;border-radius:0 0 6px 6px;font-size:10px;font-weight:bold;margin-left:5px}
+.user{background:url(../images/template/mobile/users-icon.png) no-repeat #0158a2 5px 10px!important;background-size:18px 13px!important; padding:11px 15px 6px 30px!important;}
+.user span{font-weight:800!important}
+.languageSelector{background:url(../images/template/spritesheet.png) #0158A2 70px -502px no-repeat;width:80px;height:12px;overflow-x:hidden;cursor:pointer;transition:all .3s ease-out .1s;-webkit-transition:all .3s ease-out .1s;line-height:10px}
+.languageSelector:hover{width:216px}
+.langMenu{position:absolute;list-style-type:none;padding:0;margin:0;top:8px;left:82px;width:300px}
+.langMenu li{position:relative;float:left;margin:0 4px;width:14px;height:11px}
+.langMenu li a img{position:absolute;border:2px solid #0158A2 !important;border-radius:3px;transition:all .1s linear;-webkit-transition:all .1s linear;top:1px}
+.langMenu li a:hover img{border:2px solid #FFF !important}
+
+#tabMenu{position:relative;float:right;margin:0;padding:0;list-style-type:none;top:42px;height:52px;overflow:hidden;width:480px}
+#tabMenu li{position:relative;margin-left:5px;float:right;overflow:hidden}
+#tabMenu li a{background:#0158A2;position:relative;float:left;color:#FFF;text-align:center;font:bold 12px/20px arial, sans-serif;padding:10px 20px 30px;border-radius:6px 6px 0 0;transition:all .1s linear;-webkit-transition:all .1s linear}
+#tabMenu li a.tickets{background:#FC0;color:#333;text-shadow:#FF0 0 1px 0}
+#tabMenu li a:hover{background:#FFF;color:#0158A2;text-shadow:none}
+.smallTabTxt{position:relative;top:-8px;font-size:10px;color:#78b1d7}
+
+#search{position:relative;float:right;margin:20px 10px;top:34px;padding:0}
+#search .box{background:#FFF;border-radius:20px;padding:9px 20px 6px 10px;font:normal 11px/13px arial, sans-serif;color:#0158A2;float:left;width:50px;-webkit-apperance:none;outline:none;transition:all .3s ease-in-out;-webkit-transition:all .3s ease-in-out}
+#search .box:focus{width:150px}
+#search .btn{background:url(../images/template/spritesheet.png) 0 -480px no-repeat;width:12px;height:12px;display:block;position:absolute;right:6px;top:8px;text-indent:-200px;overflow:hidden}
+
+.hf.footer{padding:10px 0 30px;color:#FFF;text-align:center;z-index:99}
+.footer .hf-inner{width:1060px}
+.footer a{color:#FFF}
+.footer a:hover{color:#FF0;text-decoration:underline}
+.footerLinks{padding:10px 0}
+.footerLinks a{font-size:11px;padding:0 10px;border-right:1px dotted #FFF}
+.footerLinks a:last-child{border-right:none}
+.footer ul{position:relative;list-style-type:none;margin:0;padding:0}
+.footer ul li{background:url(../images/template/spritesheet.png) transparent 0 -599px no-repeat;position:relative;padding-left:30px;margin:5px 0 0}
+.footer ul li a{font-size:13px;line-height:20px;padding-bottom:5px}
+.topBtn{background:url(../images/template/spritesheet.png) #107AD4 23px -656px no-repeat;display:block;position:absolute;left:114px;top:-90px;height:60px;width:60px;border-radius:6px;transition:all .3s linear;-webkit-transition:all .3s linear}
+.topBtn:hover{background-color:#09F}
+.copyright{font:bold 12px/24px arial, sans-serif}
+.disclaimer{font:normal 11px/14px arial, sans-serif;color:#9FD7FF;width:700px;margin:0 auto}
+
+
+
+/* SIDEBAR & MENU */
+
+#sidebarLeft{position:relative;float:left;width:250px;z-index:9}
+#sidebarLeft img{border:1px solid #CCC;border-radius:6px;margin-top:20px}
+.sideMenu{background:#0158A2;position:relative;list-style-type:none;margin:0;padding:0;border-radius:6px;transition:all 0.5s ease-in-out;-webkit-transition:all 0.5s ease-in-out}
+.sideMenu.minimised{height:50px;overflow:hidden;cursor:pointer}
+.sideMenu li{position:relative;display:block}
+.sideMenu li.menuTitle{background:url(../images/template/bg-sprite.png) #0159A3 repeat-x;color:#FFF;text-transform:uppercase;font:bold 13px/50px arial, sans-serif;padding:0 20px;border-radius:6px 6px 0 0;border-bottom:1px solid #04A;height:50px}
+.sideMenu.minimised li.menuTitle{border-radius:6px !important}
+.sideMenu li.menuTitle:after{content:'';background:url(../images/template/spritesheet.png) transparent -200px -553px no-repeat;width:10px;height:10px;position:absolute;right:22px;top:20px;z-index:99}
+.sideMenu li.last a{border-radius:0 0 6px 6px;padding-bottom:8px}
+.sideMenu li a{
+	background-image:url(../images/template/spritesheet.png);background-repeat:no-repeat;background-color:#0158A2;position:relative;display:block;
+	font:bold 13px/40px arial, sans-serif;padding:0 10px 0 54px;color:#FFF;height:40px;width:186px;z-index:9;transition:all .1s ease-out;-webkit-transition:all .1s ease-out;
+}
+.sideMenu li a:hover, .sideMenu li a.hovered{background-color:#107AD4}
+.sideMenu li a.subAvailable:hover, .sideMenu li a.hovered{border-bottom-right-radius:0}
+.nav-home{background-position:17px 10px}
+.nav-results{background-position:17px -30px}
+.nav-tickets{background-position:17px -70px}
+.nav-checker{background-position:17px -110px}
+.nav-random{background-position:17px -150px}
+.nav-stats{background-position:17px -190px}
+.nav-news{background-position:17px -230px}
+.nav-lotteries{background-position:17px -270px}
+.nav-info{background-position:17px -310px}
+.nav-past{background-position:-340px -125px}
+.nav-settings{background-position:-340px -175px}
+.nav-logout{background-position:-363px -230px}
+.nav-syndicate{background-position:-602px -232px}
+.nav-changes{background-position:-602px -124px; background-color: #f35d5d !important;}
+.nav-register{background-image:url(../images/vault/sprite.png)!important;background-position:17px -880px}
+.subAvailable:after{content:'';background:url(../images/template/spritesheet.png) 0 -514px no-repeat;position:absolute;width:5px;height:10px;top:15px;left:220px}
+.subMenu{position:absolute;top:0;left:250px;width:0;opacity:0;display:block;overflow:hidden;transition:all .2s ease-out .1s;-webkit-transition:all .2s ease-out .1s;border-radius:0 6px 6px 0;z-index:9}
+.subMenu li a{background-color:#107AD4 !important;background-image:none;width:120px;border-radius:0 !important;padding:6px 30px !important;border:2px solid #107AD4;line-height:18px;font-size:12px; height: auto; margin: 0;}
+.subMenu li a:hover{background-color:#0158A2 !important;}
+.sideMenu a:hover ~ .subMenu, .subMenu:hover{width:184px;opacity:1}
+.subMenu li:first-child a{border-radius:0 6px 0 0 !important}
+.subMenu li:last-child a{border-radius:0 0 6px 0 !important}
+
+.sectionNav{position:relative;margin-top:10px;cursor:default;zoom:1}
+.sectionNav li a{background-color:transparent}
+.sectionNav li.last a{border-radius:0 0 6px 6px !important}
+.sectionNav.lotto{background:url(../images/template/abstract.png) #900 repeat-x}
+.sectionNav.lotto li.menuTitle{background:url(../images/template/bg-sprite.png) #960505 0 -400px repeat-x;border-bottom:1px solid #800}
+.sectionNav.lotto li a:hover, .sectionNav.lotto li a.active{background-color:#C00}
+.sectionNav.euromillions{background:url(../images/template/abstract.png) #005D9D repeat-x}
+.sectionNav.euromillions li.menuTitle{background:url(../images/template/bg-sprite.png) #005D9D 0 -600px repeat-x;border-bottom:1px solid #039}
+.sectionNav.euromillions li a:hover, .sectionNav.euromillions li a.active{background-color:#09D}
+.sectionNav.thunderball{background:url(../images/template/abstract.png) #690037 repeat-x}
+.sectionNav.thunderball li.menuTitle{background:url(../images/template/bg-sprite.png) #690037 0 -800px repeat-x;border-bottom:1px solid #404}
+.sectionNav.thunderball li a:hover, .sectionNav.thunderball li a.active{background-color:#C06}
+.sectionNav.health{background:url(../images/template/abstract.png) #AE2200 repeat-x}
+.sectionNav.health li.menuTitle{background:url(../images/template/bg-sprite.png) #AE2200 0 -1000px repeat-x;border-bottom:1px solid #930}
+.sectionNav.health li a:hover, .sectionNav.health li a.active{background-color:#F60}
+.sectionNav.irish{background:url(../images/template/abstract.png) #6c9a33 repeat-x}
+.sectionNav.irish li.menuTitle{background:url(../images/template/bg-sprite.png) #AE2200 0 -1200px repeat-x;border-bottom:1px solid #5b822a}
+.sectionNav.irish li a:hover, .sectionNav.irish li a.active{background-color:#94d544}
+.sectionNav.postcode{background:url(../images/template/abstract.png) #FF8400 repeat-x}
+.sectionNav.postcode li.menuTitle{background:url(../images/template/bg-sprite.png) #FF8400 0 -1400px repeat-x;border-bottom:1px solid #D70}
+.sectionNav.postcode li a:hover, .sectionNav.postcode li a.active{background-color:#F50}
+.sectionNav.free{background:url(../images/template/abstract.png) #009668 repeat-x}
+.sectionNav.free li.menuTitle{background:url(../images/template/bg-sprite.png) #FF8400 0 -1600px repeat-x;border-bottom:1px solid #005f42}
+.sectionNav.free li a:hover, .sectionNav.free li a.active{background-color:#007350}
+.sectionNav.sideMenuVault{background:url(../images/template/abstract.png) #14a6fd repeat-x;margin:0 0 10px}
+.sectionNav.sideMenuVault li.menuTitle{background:#46baff;background:-moz-linear-gradient(top,  #46baff 0%, #1296e5 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#46baff), color-stop(100%,#1296e5));background:-webkit-linear-gradient(top,  #46baff 0%,#1296e5 100%);background:-o-linear-gradient(top,  #46baff 0%,#1296e5 100%);background:-ms-linear-gradient(top,  #46baff 0%,#1296e5 100%);background:linear-gradient(to bottom,  #46baff 0%,#1296e5 100%);border-bottom:1px solid #005f42}
+.sectionNav.sideMenuVault li a:hover, .sectionNav.sideMenuVault li a.active{background-color:#1493de}
+
+
+#sidebar-games{position:relative;width:248px;height:120px;border:1px solid #CCC;overflow:hidden;border-radius:6px;margin-top:20px;padding:0}
+.sidebar-game img{border:0 !important;width:250px;height:94px;border-radius:6px 6px 0 0 !important;display:block;margin:0 !important}
+.sidebar-game a span{
+	background:url(../images/games/sidebar/play.png) transparent 0 0 no-repeat;position:relative;width:222px;height:26px;border-radius:0 0 6px 6px;
+	font:bold 12px/26px arial;padding:0 26px 0 0;text-align:right;color:#333;text-shadow:#FF0 1px 1px 0;display:block;
+}
+.sidebar-game a:hover span{background-position:0 -26px;color:#FFF;text-shadow:#333 -1px -1px 0}
+.sidebar-game-demo{position:absolute;bottom:6px;left:10px;color:#333;font-size:10px}
+.sidebar-game-demo:hover{color:#09F}
+.sidebar-game a:hover ~ a{color:#FFF}
+
+
+
+/* RESULTS */
+
+.result{
+	position:relative;width:75px;height:75px;text-align:center;font:bold 36px/75px arial, sans-serif;letter-spacing:-1px;margin:0 2px;top:0;
+	text-shadow:#333 0 2px 2px;border-radius:75px;box-shadow:inset #000 0 0 24px;display:inline-block;*display:inline;zoom:1;
+}
+.result.medium{width:57px;height:57px;line-height:57px;font-size:26px;box-shadow:inset #000 0 0 18px}
+.result.small{width:36px;height:36px;line-height:36px;font-size:19px;box-shadow:inset #000 0 0 12px;letter-spacing:0}
+.result:before{content:'';background:url(../images/template/spritesheet.png) -265px -431px no-repeat;position:absolute;display:block;width:67px;height:45px;top:1px;left:4px}
+.result:after{content:'';background:url(../images/template/spritesheet.png) -254px -514px no-repeat;position:absolute;display:block;width:88px;height:22px;bottom:-6px;left:-6px}
+.result.medium:before{background-position:-275px -569px;width:51px;height:36px;left:3px}
+.result.medium:after{background-position:-267px -634px;width:67px;height:17px;left:-5px;bottom:-7px}
+.result.small:before{background:url(../images/template/spritesheet.png) -401px -432px no-repeat;width:34px;height:23px;position:absolute;display:block;top:0;left:1px}
+.result.small:after{background:url(../images/template/spritesheet.png) -396px -475px no-repeat;width:44px;height:10px;position:absolute;display:block;bottom:-3px;left:-4px}
+
+.lotto-ball, .plus5-bonus-ball, .red-ball{background:#FF3019;color:#FFF}
+.lotto-bonus-ball{background:#FFF;box-shadow:inset #000 0 0 20px -2px, inset #F00 0 0 0 11px;text-shadow:#777 0 2px 2px;color:#333}
+.lotto-bonus-ball.medium{box-shadow:inset #000 0 0 20px -2px, inset #F00 0 0 0 9px}
+.lotto-bonus-ball.small{box-shadow:inset #000 0 0 11px -2px, inset #F00 0 0 0 6px;text-shadow:#999 0 1px 1px}
+.euromillions-ball, .blue-ball{background:rgb(73,155,234);color:#FFF}
+.euromillions-lucky-star, .daily-ball, .yellow-ball{background:#FC0;box-shadow:inset #F90 0 0 24px, inset #333 0 0 15px !important;color:#333;text-shadow:#990 0 2px 2px}
+.health-ball, .orange-ball{background:#F80;box-shadow:inset #F30 0 0 20px -2px, inset #333 0 0 12px 3px;color:#FFF}
+.health-ball.medium{box-shadow:inset #F30 0 0 20px -2px, inset #333 0 0 12px 1px}
+.health-ball.small{box-shadow:inset #F30 0 0 14px -2px, inset #333 0 0 10px 0}
+.health-bonus-ball{background:#FFF;box-shadow:inset #000 0 0 15px -3px, inset #F60 0 0 0 11px;color:#333;text-shadow:#777 0 2px 2px}
+.health-bonus-ball.medium{box-shadow:inset #000 0 0 15px -3px, inset #F60 0 0 0 9px}
+.health-bonus-ball.small{box-shadow:inset #000 0 0 11px -2px, inset #F60 0 0 0 6px}
+.thunderball-ball, .pink-ball{background:#F06;color:#FFF}
+.thunderball-thunderball{background:#FFF;box-shadow:inset #000 0 0 15px -3px, inset #F06 0 0 0 11px;color:#333;text-shadow:#777 0 2px 2px}
+.thunderball-thunderball.medium{box-shadow:inset #000 0 0 15px -3px, inset #F06 0 0 0 9px}
+.thunderball-thunderball.small{box-shadow:inset #000 0 0 11px -2px, inset #F06 0 0 0 6px}
+.irish-ball, .dream-ball, .green-ball{background:#6C3;color:#FFF}
+.irish-bonus-ball{background:#FFF;box-shadow:inset #000 0 0 15px -3px, inset #6C3 0 0 0 11px;color:#333;text-shadow:#777 0 2px 2px}
+.irish-bonus-ball.medium{box-shadow:inset #000 0 0 15px -3px, inset #6C3 0 0 0 9px}
+.irish-bonus-ball.small{box-shadow:inset #000 0 0 11px -2px, inset #6C3 0 0 0 6px}
+.plus5-ball{background-color:#FFF !important;text-shadow:none !important}
+.hotpicks-ball{background-color:#C12A00;box-shadow:inset #400 0 0 20px -2px, inset #F60 0 0 0 9px;text-shadow:#777 0 2px 2px;color:#FFF}
+.hotpicks-ball.medium{box-shadow:inset #400 0 0 20px -2px, inset #F60 0 0 0 7px}
+.hotpicks-ball.small{box-shadow:inset #400 0 0 11px -2px, inset #F60 0 0 0 5px;text-shadow:#999 0 1px 1px}
+.free-ball, .free-weekly-ball {background-color:#fff;box-shadow:inset #00dd99 0 0 20px -2px, inset #03a775 0 0 0 9px;text-shadow:#777 0 2px 2px}
+.free-ball.medium, .free-ball.small{background-color:#00dd99;box-shadow:inset #00dd99 0 0 20px -2px, inset #004630 0 0 12px 1px;color:#fff}
+.free-weekly-ball{box-shadow:inset #00dd99 0 0 10px -2px, inset #03a775 0 0 0 4px!important;text-shadow:#777 0 1px 1px}
+.white-ball {background: #FFF; color: #333;}
+.purple-ball {background: #909; color: #FFF;}
+.colour-ball {font-size: 1.3em !important;}
+
+.resultBox .free-weekly-ball{box-shadow:inset #00dd99 0 0 10px -2px, inset #03a775 0 0 0 8px!important;text-shadow:#777 0 1px 1px}
+
+.result.poke {background-image: url(../images/template/poke-balls.png); background-repeat: no-repeat; background-color: transparent !important; background-size: 75px; box-shadow: none !important; border:0 !important; text-shadow: #222 0 0 10px;}
+.result.poke.medium {background-size: 57px; line-height: 61px;}
+.result.poke.small {background-size: 36px;}
+.result.poke:before {display: none !important;}
+.result.poke.lotto-ball {background-position: 0 0;}
+.result.poke.lotto-bonus-ball {background-position: 0 33.333%; color: #FFF;}
+.result.poke.euromillions-ball {background-position: 0 66.667%;}
+.result.poke.euromillions-lucky-star {background-position: 0 100%; color: #FFF;}
+
+.postcodeRes{background:url(../images/template/postcode-lottery-houses.png) transparent no-repeat;position:relative;display:block;width:376px;height:70px;font:bold 24px/69px arial;text-align:center;color:#FFF;margin:0 auto;text-indent:140px}
+.postcodeRes.millions{background-position:0 0}
+.postcodeRes.monthly{background-position:0 -80px}
+.postcodeRes.weekly{background-position:0 -160px}
+.postcodeRes.daily{background-position:0 -240px}
+.postcodeRes.european{background-position:0 -320px}
+span.postcodeText{position:absolute;display:block;width:105px;height:60px;font:bold 11px/14px arial, sans-serif;color:#f5e9b8;text-align:left;left:75px;top:20px;text-indent:0}
+span.postcodeMain{position:absolute;display:block;width:120px;height:20px;font:bold 20px/20px arial, sans-serif;color:#FFF;text-align:center;left:200px;top:18px;text-indent:0}
+span.postcodeCity{position:absolute;display:block;width:220px;height:20px;font:bold 12px/20px arial, sans-serif;color:#FFF;text-align:center;left:150px;top:34px;text-indent:0}
+
+.postcodeType{background:url(../images/template/postcode-houses.png) transparent no-repeat;position:relative;width:90px;display:inline-block;*display:inline;zoom:1;padding:72px 5px 16px 5px;line-height:16px;font-size:12px}
+.postcodeType.daily{background-position:center 5px}
+.postcodeType.weekly{background-position:center -195px}
+.postcodeType.monthly{background-position:center -395px}
+.postcodeType.millions{background-position:center -595px}
+.postcodeType.european{background-position:center -795px}
+.postcodeResult{border-radius:6px;padding:3px 8px;line-height:18px;font-size:14px;font-weight:bold;color:#FFF;display:inline-block;*display:inline;zoom:1}
+.postcodeResult.daily{background-color:#0062A8 !important}
+.postcodeResult.weekly{background-color:#EB7F00 !important}
+.postcodeResult.monthly{background-color:#578900 !important}
+.postcodeResult.millions{background-color:#C40000 !important}
+.postcodeResult.european{background-color:#C000FF !important}
+
+.postcodeMain{position:absolute;display:block;width:120px;height:20px;font:bold 20px/20px arial, sans-serif;color:#FFF;text-align:center;left:200px;top:18px;text-indent:0}
+.postcodeCity{position:absolute;display:block;width:220px;height:20px;font:bold 12px/20px arial, sans-serif;color:#FFF;text-align:center;left:150px;top:34px;text-indent:0}
+.resultsContainer.boxPostcodeLottery a{color:#F00 !important}
+.resultsContainer.boxPostcodeLottery a:hover{color:#A00 !important}
+.resultsDrawDate{color:#FFF;font-family:Arial, sans-serif;font-size:11px;font-weight:bold;margin-top:3px;padding-right:7px}
+#postcodeMap{width:90%;height:500px;border:1px solid #ccc;margin:20px auto}
+
+.clockBox{position:relative;width:120px;height:105px}
+.clockShadow{position:absolute;top:0;left:0;z-index:1}
+.clock{position:relative;z-index:9;
+	-webkit-animation-name:clock;-webkit-animation-timing-function:ease-in-out;-webkit-animation-iteration-count:infinite;-webkit-animation-duration:5s;-webkit-animation-delay:5s;
+	-moz-animation-name:clock;-moz-animation-timing-function:ease-in-out;-moz-animation-iteration-count:infinite;-moz-animation-duration:5s;-moz-animation-delay:5s;
+	animation-name:clock;animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-duration:5s;animation-delay:5s;
+}
+@-webkit-keyframes clock{0%, 16%, 100%{-webkit-transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)} 2%, 6%, 10%, 14%{-webkit-transform:rotateX(20deg) rotateY(20deg) rotateZ(20deg)} 4%, 8%, 12%{-webkit-transform:rotateX(0deg) rotateY(0deg) rotateZ(-20deg)}}
+@-moz-keyframes clock{0%, 16%, 100%{-moz-transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)} 2%, 6%, 10%, 14%{-moz-transform:rotateX(20deg) rotateY(20deg) rotateZ(20deg)} 4%, 8%, 12%{-moz-transform:rotateX(0deg) rotateY(0deg) rotateZ(-20deg)}}
+@keyframes clock{0%, 16%, 100%{transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg)} 2%, 6%, 10%, 14%{transform:rotateX(20deg) rotateY(20deg) rotateZ(20deg)} 4%, 8%, 12%{transform:rotateX(0deg) rotateY(0deg) rotateZ(-20deg)}}
+
+
+
+/* SOCIAL MEDIA */
+.socialContainer{position:relative;padding:16px 20px 0 0;margin-bottom:10px;text-align:center;float:right;line-height:normal;text-indent:0;overflow:hidden;}
+.socialHome{background:#EEE;background:rgba(0,0,0,0.07);border:solid 1px #DDD;border-radius:6px;box-shadow:inset #BBB 0 1px 2px -2px;padding:8px 10px;height:20px;margin-left:10px}
+.socialContainer.latest{position:absolute;top:0;right:0}
+.socialContainer.inPlace{
+	background:#EEE;background:rgba(0,0,0,0.07);border:solid 1px #DDD;margin:20px auto;float:none;width:auto;border-radius:6px;box-shadow:inset #BBB 0 1px 2px -2px;
+	padding:8px 10px;height:20px;display:inline-block;display:*inline;zoom:1;
+}
+.socialContainer p{float:left;line-height:12px;font-size:12px;padding:4px 10px;margin:0}
+.facebook, .twitter {background-repeat: no-repeat; background-size: 14px; background-position: 4px center; position: relative; color: #FFF; font: bold 11px/20px arial, sans-serif; text-align: left; border-radius: 3px; display: inline-block; *display: inline; zoom: 1; margin: 0 4px; text-indent: 20px; padding: 1px 4px 1px 2px; text-shadow: none; cursor: pointer;}
+.facebook{background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARBJREFUeNpi+P//PxMQ1wLx8//0Ay+BuA5kNwPU8oECNYwgnzMwMEgwDAx4CXLAfyoY9BCIVwPxdSB+A8T/gJgRiuWBeBJOnVQIxmYgZgX5AwfWwaeZhUKfTwDiWkoMYKJA7wcgrqE07ihxwBYg/kqpAyiJgss4xM2BuA2I2aF8Llo54BMO8QwgdqJHFOACrPRKA1QBLGTE+zEo+yoONXuB+AsSnxuIY6hVEE3AU+Dgwgb4DKRHFEgNdBoY3A4gNRGqAXEElH0aiO9iUWMBxApIfCu8JlJQC2bgSHRLSDFkwMuBUQeMOmDUAaMOGBQOeDWA9j8HOWDqADpgMqg2bIH25XKAWJxePgdZDsQdAAEGAO0jgh5iZBmJAAAAAElFTkSuQmCC); background-color: #425CAF;}
+.twitter {background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdZJREFUeNrsl08oREEcx3fZYsvaHJaUP1tSRJzszd1Jidy2HFwoEnelJC6uTk5K5LDlIIUcJIoD7WUdOOweiINsq9afdnynfjKNnZ2Z13tJ7a8+h3lv5v2+7838/jw/Y8z3l+YvCygL8EBAEwiBDMhpZ3MBAhXS2JRKMAfS7Mc+wR7oFebVgnFxrfygOFi2dF4F9pna8mABbIEcmC0lIEGLFi0ErDJz2wBh0KMScCVM3gQhjfMIeDN0ngVnIAOiKgEn0qI7MFhCwCizswfpTPwSsKJYeAqGab/F+dMWzvmhbJZfQg7DVpAC1YqgyYIDcE7z+sC8YXjmQVCXB3j8joB1fs/l/PAIGnQCLsE9iIJulwVcgJh8MSCNk2DMo6x7bZIJY6DAvLF4sUgqFlpLHjh/B3WmAnyU119dFLCtyiWqajgE2sAUaHFh/2N0CLVnQPwCbtlOqXSuuhEAhy44fwaNTgRwgmCNUqgTK2jqiFbANzx/T4AnSwEzJuXcRMAASFoWnUnTfkKMgnrwAcKgHfRTXei0OO1pyqTHxisENV1g1+F+56iLCjHLfrLYxQ7qC1Iap7wTOqLPHXbYzGrb8ghVRd5q11BNfwG34IbG5R+T/y3gS4ABAPnOO1QptiXuAAAAAElFTkSuQmCC); background-color: #22A9D6}
+.facebook:hover {color: #FFF; background-color: #5574D1;}
+.twitter:hover {color: #FFF; background-color: #3BBDE8;}
+
+
+/* CHECKER */
+.checkerNumber{
+	background:url(../images/template/blank.png) #ffffff right center no-repeat;
+	background:-moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 98%, #ffffff 98%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(98%,#ededed), color-stop(98%,#ffffff));
+	background:-webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 98%,#ffffff 98%);
+	background:linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 98%,#ffffff 98%);
+	position:relative;padding:12px 14px;border-bottom:4px solid #777;border-radius:8px;font:24px/30px arial, sans-serif;outline:none;text-decoration:none !important;
+	text-decoration:none;text-align:center;color:#333;text-shadow:#FFF 0 1px 0;box-shadow:#333 0 2px 4px -2px;top:0;transition:all 0.1s linear;
+	-webkit-transition:all 0.1s linear;display:block;cursor:pointer;width:30px;margin:auto;cursor:pointer !important;
+}
+.checkerNumber:hover{top:2px;border-bottom:3px solid #777;box-shadow:#333 0 3px 4px -4px;color:#B00 !important}
+.checkerNumber.selected, .checkerNumber:active{
+	background:url(../images/template/blank.png) #FC0 right center no-repeat;
+	background:-moz-linear-gradient(top,  #ffde00 0%, #ffa200 98%, #ffd800 98%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffde00), color-stop(98%,#ffa200), color-stop(98%,#ffd800));
+	background:-webkit-linear-gradient(top,  #ffde00 0%,#ffa200 98%,#ffd800 98%);
+	background:linear-gradient(to bottom,  #ffde00 0%,#ffa200 98%,#ffd800 98%);
+	top:2px;border-bottom:3px solid #ba4a00;box-shadow:#333 0 3px 4px -4px;color:#333 !important;text-shadow:#FD0 0 1px 0;transition:all 0.05s linear;
+	-webkit-transition:all 0.05s linear;
+}
+.checkerNumber:active{top:4px !important;border-bottom:1px solid #ba4a00 !important;box-shadow:#333 0 3px 3px -4px !important;color:#333 !important}
+.checkerNumber.selected:hover{color:#D30 !important}
+.checkerNumber.disabled{box-shadow:none;color:#CCC !important;border-bottom:4px solid #DDD !important;box-shadow:#AAA 0 2px 4px -2px !important;top:0 !important;cursor:default !important}
+.checkerNumber.disabled:active{background:#EEE}
+.checkerNumber.type2{color:#F90}
+
+.emptyBall{background:#600;position:relative;width:39px;height:39px;border-radius:36px;padding:3px;margin:0 -1px;border-bottom:1px solid #B55;z-index:9}
+.emptyBall .result{left:0;top:1px}
+.emptyBall .result.euromillions-ball{box-shadow:inset #226 0 0 10px}
+.emptyBall .result:after{background:none}
+.emptyBall div{float:left}
+#checkerStatus{background:#600;position:relative;float:right;border-radius:10px;border-bottom:1px solid #B55;color:#FFF;font:bold 12px/18px arial, sans-serif;text-align:center;padding:5px 35px 5px 20px;width:210px;height:18px;margin-top:9px;margin-right:-15px;z-index:1}
+#checkerStatus.euromillions, .emptyBall.euromillions{background:#184770;border-bottom:1px solid #27C}
+#checkerStatus.thunderball, .emptyBall.thunderball{background:#67233B;border-bottom:1px solid #9e0d54}
+#checkerStatus.irish, .emptyBall.irish{background:#355426;border-bottom:1px solid #5d9241}
+#checkerStatus.free, .emptyBall.free{background:#009568;border-bottom:1px solid #00c98c}
+.autoCheckerAd{background:url(../images/automatic-ticket-checker.jpg) transparent top no-repeat;width:700px;height:100px;margin:auto;position:relative}
+.checkerDraws{position:relative;float:right;font-size:11px;line-height:20px;background:#DDD;border:1px solid #CCC;padding:5px 10px;border-radius:6px;margin:6px 0;left:-10px}
+
+.greyed{background:#CCC;color:#555;text-shadow:none}
+.small.bonus-ball.greyed{box-shadow:inset #000 0 0 11px -2px, inset #FAA 0 0 0 6px}
+.small.lucky-star.greyed{box-shadow:inset #000 0 0 11px -2px;background-color:#FFF}
+.small.thunderball.greyed{box-shadow:inset #000 0 0 11px -2px, inset #FAC 0 0 0 6px}
+.small.health-bonus-ball.greyed{box-shadow:inset #000 0 0 11px -2px, inset #FCA 0 0 0 6px}
+.small.health-ball.greyed{box-shadow:inset #000 0 0 11px -2px}
+.ballTick{position:absolute;bottom:-10px;right:-10px;z-index:999}
+
+#playNumbers{
+	position:relative;left:-19px;border-radius:0 0 6px 6px;width:738px;color:#FFF;height:0;top:20px;padding:0;
+	transition:0.4s all ease-in-out;-webkit-transition:0.4s all ease-in-out;font-size:14px;z-index:9;overflow:hidden;line-height:55px;
+}
+
+}
+
+
+
+/* SIDEBAR GAMES ANIMATION (must be outside any media queries to work in IE) */
+
+#sidebar-game-1, #sidebar-game-2, #sidebar-game-3{
+	position:absolute;top:0;left:0;z-index:1;
+	animation-timing-function:ease-in-out;animation-iteration-count:infinite;animation-duration:21s;
+	-moz-animation-timing-function:ease-in-out;-moz-animation-iteration-count:infinite;-moz-animation-duration:21s;
+	-webkit-animation-timing-function:ease-in-out;-webkit-animation-iteration-count:infinite;-webkit-animation-duration:21s;
+}
+
+#sidebar-game-1{-webkit-animation-name:game1;-moz-animation-name:game1;animation-name:game1}
+@keyframes game1{0%, 36%{left:0;z-index:2} 37%{left:250px;z-index:1} 97%{left:250px;z-index:3} 100%{left:0;z-index:3}}
+@-moz-keyframes game1{0%, 36%{left:0;z-index:2} 37%{left:250px;z-index:1} 97%{left:250px;z-index:3} 100%{left:0;z-index:3}}
+@-webkit-keyframes game1{0%, 36%{left:0;z-index:2} 37%{left:250px;z-index:1} 97%{left:250px;z-index:3} 100%{left:0;z-index:3}}
+
+#sidebar-game-2{-webkit-animation-name:game2;-moz-animation-name:game2;animation-name:game2}
+@keyframes game2{0%{left:250px;z-index:1} 33%{left:250px;z-index:3} 36%{left:0;z-index:3} 37%, 100%{left:0;z-index:2}}
+@-moz-keyframes game2{0%{left:250px;z-index:1} 33%{left:250px;z-index:3} 36%{left:0;z-index:3} 37%, 100%{left:0;z-index:2}}
+@-webkit-keyframes game2{0%{left:250px;z-index:1} 33%{left:250px;z-index:3} 36%{left:0;z-index:3} 37%, 100%{left:0;z-index:2}}
+
+#sidebar-game-3{-webkit-animation-name:game3;-moz-animation-name:game3;animation-name:game3}
+@keyframes game3{0%{left:250px;z-index:1} 63%{left:250px;z-index:3} 66%{left:0;z-index:3} 67%, 100%{left:0;z-index:2}}
+@-moz-keyframes game3{0%{left:250px;z-index:1} 63%{left:250px;z-index:3} 66%{left:0;z-index:3} 67%, 100%{left:0;z-index:2}}
+@-webkit-keyframes game3{0%{left:250px;z-index:1} 63%{left:250px;z-index:3} 66%{left:0;z-index:3} 67%, 100%{left:0;z-index:2}}
+
+
+/* SIDEBAR BANNER ANIMATION */
+
+#fl-button, #fl-textA1, #fl-textB1, #fl-textA2, #fl-textA3, #fl-textB2, #fl-textB3 {-webkit-animation: 10s linear infinite; animation: 10s linear infinite; }
+#fl-base {position: relative; width: 248px; height: 248px; overflow: hidden; display: block; border-radius: 6px; margin-top: 20px }
+#fl-bg {background: url(../images/banners/free-lottery/sky-bg.jpg) transparent center no-repeat; position: absolute; width: 100%; height: 100%; overflow: hidden; background-size: 300px; z-index: 1; -webkit-animation: bg 12s ease-in-out infinite alternate; animation: bg 12s ease-in-out infinite alternate }
+#fl-image {position: relative; padding-top: 20px }
+#fl-image img {position: relative; z-index: 3; display: block; margin: auto; border: 0; width: 180px; border-radius: 0 }
+#fl-button {width: 90px; height: 20px; left: 48px; top: 180px; line-height: 20px; cursor: pointer; position: absolute; z-index: 9; -webkit-animation-name: button; animation-name: button; transition: all .2s linear; -webkit-transition: all .2s linear }
+#fl-button:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1)
+}
+
+#fl-textA1, #fl-textB1, #fl-textA2, #fl-textB2, #fl-textA3, #fl-textB3 {position: absolute; width: 100%; padding: 30px 0; left: 0; text-rendering: optimizeLegibility; text-align: center; z-index: 9 }
+#fl-textA1, #fl-textB1, #fl-textA3, #fl-textB3 {top: 35px; font: bold 20px tahoma, arial, sans-serif; color: #FFF; -webkit-animation-name: textA1; animation-name: textA1 }
+#fl-textA2, #fl-textB2 {top: 58px; font: bold 44px arial, sans-serif; color: #FE0; text-transform: uppercase; letter-spacing: -3px; -webkit-animation-name: textA2; animation-name: textA2 }
+#fl-textA3 {-webkit-animation-name: textA3; animation-name: textA3; top: 105px }
+#fl-textB1 {-webkit-animation-name: textB1; animation-name: textB1; top: 40px }
+#fl-textB2 {-webkit-animation-name: textB2; animation-name: textB2; font-size: 40px; top: 60px }
+#fl-textB3 {-webkit-animation-name: textB3; animation-name: textB3; top: 100px }
+@keyframes textA1 {0%, 60% {opacity: 0; transform: scale(.001) } 62%, 90% {opacity: 1; transform: scale(1) } 95% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@-webkit-keyframes textA1 {0%, 60% {opacity: 0; transform: scale(.001) } 62%, 92% {opacity: 1; transform: scale(1) } 95% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@keyframes textA2 {0%, 62% {opacity: 0; transform: scale(.001) } 64%, 93% {opacity: 1; transform: scale(1) } 98% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@-webkit-keyframes textA2 {0%, 62% {opacity: 0; transform: scale(.001) } 64%, 93% {opacity: 1; transform: scale(1) } 98% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@keyframes textA3 {0%, 64% {opacity: 0; transform: scale(.001) } 66%, 95% {opacity: 1; transform: scale(1) } 99% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@-webkit-keyframes textA3 {0%, 64% {opacity: 0; transform: scale(.001) } 66%, 95% {opacity: 1; transform: scale(1) } 99% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@keyframes textB1 {0%, 4% {opacity: 0; transform: scale(.001) } 6% {opacity: 1; transform: scale(1) } 50% {opacity: 1; transform: scale(1.07) } 55% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@-webkit-keyframes textB1 {0%, 4% {opacity: 0; transform: scale(.001) } 6% {opacity: 1; transform: scale(1) } 50% {opacity: 1; transform: scale(1.07) } 55% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@keyframes textB2 {0%, 6% {opacity: 0; transform: scale(.001) } 8%, 12%, 16%, 52% {opacity: 1; transform: scale(1) } 10%, 14% {opacity: 1; transform: scale(1.20) } 57% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@-webkit-keyframes textB2 {0%, 6% {opacity: 0; transform: scale(.001) } 8%, 12%, 16%, 52% {opacity: 1; transform: scale(1) } 10%, 14% {opacity: 1; transform: scale(1.20) } 57% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@keyframes textB3 {0%, 8% {opacity: 0; transform: scale(.001) } 10% {opacity: 1; transform: scale(1) } 54% {opacity: 1; transform: scale(1.07) } 59% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@-webkit-keyframes textB3 {0%, 8% {opacity: 0; transform: scale(.001) } 10% {opacity: 1; transform: scale(1) } 54% {opacity: 1; transform: scale(1.07) } 59% {opacity: 0; transform: scale(4) } 100% {opacity: 0 } }
+@keyframes button {0%, 100% {bottom: 40px } }
+@-webkit-keyframes button {0%, 100% {bottom: 40px } }
+
+
+/* FREE LOTTERY THEME */
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]{cursor:pointer}
+.container{position:relative;width:1200px;margin:0 auto}
+#login-panel{height:96px;min-width:1200px;padding-top:35px;background:url(../images/vault/login-bg.jpg) no-repeat #14a6fd;border-bottom:8px solid #0158a2}
+.panel-button{position:absolute;top:96px;right:0;width:80px;height:30px;color:#fff;background:#14a6fd;margin:0;border:0;border-radius:0 0 6px 6px;z-index:99;font-weight:700;display:block;font-size:12px;line-height:30px;text-align:center}
+.form-control{background-color:#ffffff;background-image:none;border:1px solid #ddd;border-radius:4px;color:#555555;display:block;font-size:14px;height:22px;line-height:1.42857;padding:6px 12px;transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;width:90%}
+.panel-button:hover, .panel-button:active, .panel-button:focus {outline:none}
+#panel-close{position:absolute;font-size:14px;font-weight:400;line-height:30px;right:22px;top:-30px;text-decoration:none;color:#8bd4ff}
+#panel-close span{display:block;background:#fff;color:#14a6fd;text-align:center;border-radius:10px;width:20px;height:20px;line-height:20px;float:right;margin:5px 0 0 5px}
+#panel-close:hover{color:#ffcc00}
+#panel-close:hover span{background:#ffcc00}
+.join a{color:#fff}
+.join a:hover{text-decoration:none;color:#F90}
+.horizontal-login .username, .horizontal-login .password, .horizontal-login .submit{width:220px;padding:5px;float:left}
+.horizontal-login{color:#fff}
+.horizontal-login span a{color:#fff;margin-top:5px;display:block}
+.horizontal-login span a:hover{text-decoration:none;color:#F90}
+.horizontal-login input[type=checkbox]{float:left;margin:5px 5px 0 15px}
+.horizontal-login .submit{width:140px;padding:2px}
+.button-submit{width:100px;height:35px;margin-left:15px;margin-top:2px;padding:4px 10px!important;font-size:14px!important;border:0}
+#login-panel .join{width:340px;float:right;font-size:18px;color:#fff;margin:0 170px 0 0;line-height:24px;line-height:40px}
+#login-panel .join .button-yellow{font-size:18px;font-weight:700;line-height:10px;width:90px;float:right;height:10px}
+#login-panel .join p{font-size:14px}
+#login-panel .join p a{text-decoration:underline}
+.cont-button{height:40px!important;width:150px;padding:0 10px;border-top:none;border-left:none;border-right:none;margin-left:10px}
+.resultBox.withSide .draw-no{position:absolute;right:40px;top:30px}
+.resultsBottom.latest .title{float:left;font-size:24px;font-weight:700;display:block;color:#fff;margin-top:5px}
+.resultsBottom.latest .draw-no{font-size:20px;color:#fff;float:right;margin:5px 45px 0 0;display:block}
+.stats-menu{margin-bottom:10px;display:inline-block;height:80px}
+.stats-menu a, .stats-menu .active{float:left;width:340px;border-radius:8px;border:1px solid #eaeaea;color:#fff; font-weight:700;padding:25px 0 25px 80px;font-size:16px;margin-right:20px;border-bottom:5px solid #003f8d;box-shadow:#333 0 3px 5px -3px;top:0;position:relative;transition:all .1s linear;-webkit-transition:all .1s linear;background-position:0 center!important;
+background:url(../images/template/daily-draw-logo-small.png) no-repeat #0097fb;
+background:url(../images/template/daily-draw-logo-small.png) no-repeat, -moz-linear-gradient(top,  #0097fb 0%, #006bb3 97%, #0082d9 97%);
+background:url(../images/template/daily-draw-logo-small.png) no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0097fb), color-stop(97%,#006bb3), color-stop(97%,#0082d9));
+background:url(../images/template/daily-draw-logo-small.png) no-repeat, -webkit-linear-gradient(top,  #0097fb 0%,#006bb3 97%,#0082d9 97%);
+background:url(../images/template/daily-draw-logo-small.png) no-repeat, linear-gradient(to bottom,  #0097fb 0%,#006bb3 97%,#0082d9 97%)}
+.stats-menu .elem2{background:url(../images/template/weekly-draw-logo-small.png) no-repeat #0097fb;
+background:url(../images/template/weekly-draw-logo-small.png) no-repeat, -moz-linear-gradient(top,  #0097fb 0%, #006bb3 97%, #0082d9 97%);
+background:url(../images/template/weekly-draw-logo-small.png) no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0097fb), color-stop(97%,#006bb3), color-stop(97%,#0082d9));
+background:url(../images/template/weekly-draw-logo-small.png) no-repeat, -webkit-linear-gradient(top,  #0097fb 0%,#006bb3 97%,#0082d9 97%);
+background:url(../images/template/weekly-draw-logo-small.png) no-repeat, linear-gradient(to bottom,  #0097fb 0%,#006bb3 97%,#0082d9 97%)}
+.stats-menu .active{background:url(../images/template/daily-draw-logo-small.png) no-repeat #009668;border:0;box-shadow:none;color:#fff;position:relative}
+.stats-menu .active:after{content:"";width:0;height:0;border-style:solid;border-width:20px 20px 0 20px;border-color:#009668 transparent transparent;position:absolute;bottom:-20px;left:200px}
+.stats-menu .active.elem2{background-image:url(../images/template/weekly-draw-logo-small.png)}
+.stats-menu a:hover{top:2px;border-bottom:3px solid #003f8d;box-shadow:#333 0 3px 4px -4px;color:#FFF !important;margin-bottom:2px}
+
+.login-container{background:#f4f4f4;width:600px;	margin:40px auto;border:1px solid #eaeaea;overflow:hidden;position:relative;border-radius:8px}
+.login-container  .paddedBig{padding:40px 80px;overflow:hidden;position:relative}
+.login-container form .button-yellow{float:left}
+.login-container .form-control{margin-bottom:15px;width:400px}
+.login-container .pull-left{width:100%}
+.login-container #form label{font-size:16px;font-weight:700}
+.alert{color:red}
+.alert-3{background-color:#093e87}
+.alert-3 a{color:#ffd10f}
+.alert-3 a:hover{color:#fe4e5b}
+.login-container .captcha{width:50px}
+.login-container .alert{display:inline-block;clear:both}
+.login-container .alert-4{margin-top:-10px;float:left;clear:both;color:#f00; margin-bottom:15px;width:100%}
+.login-container .bottom-link{position:absolute;display:block;bottom:70px;left:160px}
+.login-container h2{margin-top:0}
+.login-container p{margin:0 0 10px 0}
+.login-notverified p{margin-bottom:15px}
+.login-container .bottom-text{ clear:both;float:right}
+.form-control:focus{border:1px solid #fb0}
+.login-container .text-alert{width:100%;display:block;margin:-10px 0 10px;color:red}
+
+/* REGISTER */
+
+.register{background:url(../images/vault/register-bg.jpg) no-repeat #13537f top center}
+.register-content{width:320px;background:#fff;float:left;padding:10px 50px 20px;border-radius:8px;-webkit-box-shadow:0 0 50px 0 #135b8f;box-shadow:0 0 50px 0 #135b8f;}
+.register .gen-box .text-alert-2{margin-bottom:0}
+.register-content .text-alert-2{background-position:14px -745px}
+.register-content .form-control{margin-bottom:20px}
+.register-content p{color:#797979;text-align:center}
+.register-content h2{font-size:24px!important;letter-spacing:-1px;margin-bottom:20px}
+.register-content .registered{float:right;line-height:24px;margin:10px 10px 0 0}
+.register-content p.small{font-size:11px}
+#form label{font-size:14px;color:#696969;font-weight:700}
+.big-text{text-align:center;color:#fff;font-weight:700;letter-spacing:-1.5px;font-size:42px;line-height:46px;margin-bottom:70px}
+.big-text span{color:#ffdf3e}
+.register .captcha{width:40px}
+.register .text-alert{display:block;float:left;margin:-10px 0 15px;width:100%;color:#fe4e5b}
+.register-right{width:400px;padding:20px;float:right}
+.register-right .title{font-size:28px;font-weight:700;color:#fff;margin-bottom:20px;letter-spacing:-1px}
+.register-right ul li{background:url(../images/vault/sprite.png) no-repeat;height:80px;list-style:none;color:#fff;font-size:18px;padding:20px 0 0 120px;width:240px}
+.register-right p{background:url(../images/vault/arrow-1.png) no-repeat;padding-left:120px;font-size:30px;color:#fff;font-weight:700;line-height:30px;margin-left:-30px}
+.register-right .icon-weekly{background-position:0 0}
+.register-right .icon-s-stats{background-position:0 -210px}
+.register-right .icon-check{background-position:0 -295px}
+.register-right .button-blue{float:right;margin:20px 80px 0 0}
+.register-right a{color:#fff;float:right;margin:10px 100px 0 0;display:block;text-decoration:underline}
+.register-right a:hover{color:#F90}
+
+.register .gen-box{width:400px;float:left}
+.with-icon img{float:left;margin:0 20px 20px;width:80px}
+.with-icon p{margin:15px 0 0 0}
+
+/* ACCOUNT SETTINGS */
+
+.gen-box{background:#f4f4f4;border:1px solid #eaeaea;border-radius:8px;overflow:hidden;position:relative}
+.gen-box .bottom-box, .login-container .bottom-box{ clear:both;float:right;min-height:50px;width:80%}
+.gen-box .bottom-box h3, .login-container .bottom-box h3{margin-top:0}
+.account-box{float:left;width:80%;padding:15px 0 20px 100px;position:relative;margin-left:20px}
+.account-box img{position:absolute;left:0;top:28px;width:80px}
+.account-box .title{font-weight:700;font-size:14px;float:left;margin:30px 0 0;color:#333}
+.account-box p{float:left;font-size:16px;clear:both;color:#797979;letter-spacing:-0.5px;margin-top:0}
+.account-settings .btn{float:left;font-size:18px;margin:20px 20px 0}
+.generic-box .column{width:430px;float:right}
+
+.account-settings #Salutation, #DOBDay, #DOBMonth, #DOBYear{background-color:#ffffff;background-image:none;border:medium none;border-radius:4px;box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;color:#555555;display:block;font-size:14px;height:34px;line-height:1.42857;margin-bottom:10px;padding:6px 12px;transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;width:80px}
+.account-settings .edit-icon-small{display:block;float:right;font-size:18px;font-weight:700;color:#fff;background:url(../images/template/spritesheet.png) no-repeat 15px -378px #fe4e5b;	padding:10px 10px 10px 45px;border-radius:5px}
+.account-settings .edit-icon-small:hover{color:#093e87;text-decoration:none;background-position:-524px -378px;background-color:#f3cc08}
+.account-settings .password-change{display:block;float:right;width:310px;margin:0 0 20px 20px;background:url(../images/vault/key.png) no-repeat #0158a2 30px 20px;padding:30px 0 30px 130px;overflow:hidden;color:#fff;font-size:22px;font-weight:700;height:30px;border-radius:8px}
+.account-settings .password-change:hover{background-color:#F90;text-decoration:none}
+.account-box .edit-icon{float:left;display:block;background:url(../images/vault/sprite.png) no-repeat 0 -402px;padding-left:20px;margin-top:5px;clear:both}
+.account-box .edit-icon:hover{background-position:0 -453px;text-decoration:none}
+.account-settings .small-link{text-align:center;width:100%;padding:20px 0 0 0;clear:both;overflow:hidden;margin-bottom:0;display:block}
+.account-box .alert{float:left;clear:both;font-size:12px;font-weight:700}
+.account-settings .status-updated p{color:#093e87;	padding:10px 10px 10px 50px;font-family:14px;font-weight:700;background:url(../images/vault/sprite.png) no-repeat 20px -727px #ffdc00}
+.account-settings .twoCol, .account-settings .oneCol{background:#f4f4f4;border:1px solid #eaeaea;border-radius:8px;padding-bottom:20px}
+.account-settings .twoCol-alt{width:43%;padding:3%}
+.account-settings .button-yellow{float:right;margin:0 20px 0 0}
+.account-settings .latestHeader{border-radius:5px 5px 0 0}
+.form-alt .fifty-percent{margin:20px}
+.form-alt p{padding:20px}
+.cite{display:block;width:0;height:0;border-style:solid;border-width:10px 10px 0 10px;border-color:#14a6fd  transparent transparent ;position:absolute;bottom:-10px;left:20px}
+#DOBDay{float:left;margin:0 5px 30px 0;height:24px}
+#DOBMonth{float:left;margin:0 5px 30px 0;width:135px}
+#DOBYear{float:left;height:24px}
+.account-settings .form-control{margin:0 0 30px 2px;width:85%;float:left}
+.account-settings form .note{position:relative;float:right;margin-top:5px}
+.account-settings form .note img{cursor:pointer}
+.account-settings form .note p{position:absolute;visibility:hidden;background:#14a6fd;padding:10px;width:300px;color:#fff;left:-270px;top:-80px;z-index:99;margin:0}
+.account-settings form .note:hover p{ visibility:visible}
+.account-settings form .note p .cite{left:270px}
+.freindly-note p{margin-top:20px!important}
+.account-settings form .note-alt{float:left;margin:0 0 0 5px}
+.account-settings form .note-alt p, .account-settings form .note-alt p .cite{left:0;left:10px}
+.account-settings form .note-alt p{width:650px;left:-10px;text-align:left}
+.account-settings form label{display:block;clear:both;margin-bottom:5px}
+.account-settings .bottom-text, .login-container .bottom-text{clear:both;float:right;margin-top:10px}
+
+.account-settings form .r-buttons{margin:5px 0 15px;display:block;clear:both;float:left}
+.account-settings form .r-buttons li{float:left;margin-left:10px;list-style:none}
+.account-settings form .btn, .login-container form .btn{border:0;float:right;padding:10px 20px;clear:both;margin:20px 0}
+.account-settings form .text-alert, .text-alert-2{position:relative;float:left;clear:both;margin-bottom:20px;background:url(../images/vault/sprite-2.png) no-repeat 14px -746px #cf1b22;padding:10px 10px 10px 45px;color:#fff}
+.text-alert-2, .text-alert{float:none;display:inline-block;border-radius:8px;background-position:14px -742px}
+.text-alert-2 p{font-size:14px;margin:0}
+.account-settings form .text-alert .cite{border-color:transparent transparent #e98336}
+.small-b-margin{margin-bottom:5px!important}
+.more-info{clear:both;padding:0px 0 0 150px}
+.more-info .but{font-size:36px;text-align:center;font-weight:800;letter-spacing:-1.5px;font-size:30px}
+.more-info .resend-verification{width:350px;margin:10px 0 0 0;float:left;font-family:"Open Sans", Helvetica, Arial, sans-serif}
+.account-settings .box-small{width:232px;display:inline-block;text-align:center;  background:#ffffff url("../images/template/bg-sprite.png") repeat-x scroll 0 -185px !important;
+    border:1px solid #e5e5e5;border-radius:8px;padding:10px;color:#093E87}
+.account-settings .box-small .r-buttons{float:none;width:135px;margin:20px auto}
+.account-settings .box-small .note-alt{margin-top:-5px}
+
+.ticket .game{float:left;padding:20px 20px 30px;overflow:hidden;background:#f4f4f4;margin-bottom:20px;position:relative;width:848px;border:5px double #e8e8e8;border-radius:8px}
+.ticket .game .first-col{float:left;width:40%;overflow:hidden}
+.ticket .game .second-col{float:right;width:60%}
+.ticket .stats{width:100%;clear:both;overflow:hidden;margin-bottom:20px}
+.ticket .stats img{float:left;margin-right:20px}
+.ticket .game h2{color:#00966b;float:left;font-size:30px!important}
+.ticket .game p{margin-bottom:30px;clear:both;font-size:16px}
+.ticket .stats .box{position:relative;float:left;background:#00966b;padding:15px 10px 10px 10px;width:320px;color:#fff;margin:15px 0 20px;clear:none;border-radius:5px}
+.ticket .stats .box:before{background:url(../images/template/point.png) no-repeat; content:"";position:absolute;left:-9px;top:30px;height:30px;width:30px}
+.ticket .game .box span{font-size:16px;font-weight:700;float:left;width:100%}
+.ticket .game .prize span{display:block;font-size:18px;font-weight:normal;color:#333;width:60px;margin-bottom:5px;letter-spacing:0}
+.ticket .game .prize{float:right;font-size:42px;color:#00966b;font-weight:700;margin:0 -1px 20px 0;line-height:24px;letter-spacing:-2px}
+.game .links{position:absolute;bottom:40px}
+.counters{width:300px;float:left;color:#00966b}
+.counters .title{font-size:12px;font-weight:700;letter-spacing:-0.5px;float:left;margin-right:10px;line-height:30px}
+.counters .numbers{width:65px;float:left;margin:0 2px}
+.counters ul{display:block;width:100%;float:right}
+.counters ul li{ height:35px;width:45px;line-height:35px;text-align:center;font-weight:700;color:#00966b;background:#ebebeb;font-size:24px;border-radius:4px;float:left;margin:0 1px;border:1px solid #d0d0d0;list-style:none}
+.counters span{float:left;display:block;width:45px;text-align:center;font-size:12px;line-height:20px;color:#00966b;font-weight:normal}
+.ticket .game .btn{ text-align:center;background:#fe4e5b;position:absolute;color:#fff;font-size:14px;font-weight:700;bottom:20px;right:20px;border-radius:8px;font:bold 14px/30px arial,sans-serif;padding:12px 45px 12px 25px}
+.ticket .game .button-yellow{position:absolute;bottom:20px;right:20px;top:auto;padding:8px 45px 8px 25px}
+.ticket .game .btn-inactive, .ticket .game .btn-inactive:hover{background:url(../images/template/arrow-disabled.png) no-repeat right center #dbdbdb;margin:0;color:#9c9c9c;height:auto!important}
+input[disabled=disabled], input:disabled{background:url(../images/template/arrow-disabled.png) no-repeat right center #dbdbdb;margin:0;color:#9c9c9c!important;border:0;border-radius:8px;box-shadow:none;text-shadow:none;text-align:center}
+input[disabled=disabled]:hover, input:disabled:hover{background:url(../images/template/arrow-disabled.png) no-repeat right center #dbdbdb;margin:0;color:#9c9c9c!important;border:0;top:0;box-shadow:none;cursor:default}
+.overlay-link{display:block;position:absolute;width:100%;height:100%;z-index:99;top:0;left:0;text-align:center;line-height:300px;font-size:24px;color:#fff;font-weight:700;opacity:0}
+.overlay-link:hover{display:block;position:absolute;width:100%;height:100%;background:#000;z-index:99;top:0;left:0;text-align:center;line-height:350px;opacity:0.7;font-size:24px;color:#fff;font-weight:700;text-decoration:none}
+.overlay-link:hover span{opacity:1}
+.game .ticket-box{font-family:"Courier", san-serif;color:#000;background:#fceeb4;padding:10px;overflow:hidden;width:250px;height:280px;position:relative}
+.game .ticket-logo{margin-right:10px!important}
+.game .ticket-box .draw-title{font-size:18px;border-bottom:2px dashed #000;float:left;padding-bottom:5x; margin:0 0 10px;width:100%}
+.game .ticket-box .draw-date{float:right;width:70px;margin:20px 10px 30px 0}
+.game .ticket-box .date{font-size:38px;font-weight:normal;text-transform:uppercase;line-height:24px}
+.game .ticket-box .date span{font-size:18px;clear:both}
+.game .ticket-box .prize-m{margin-bottom:5px}
+.game .ticket-head{width:100%;border-bottom:2px dashed #000;clear:both;overflow:hidden;padding-bottom:10px;margin:0 0 10px;float:left}
+.game .ticket-head .title{float:left}
+.game .ticket-id{float:right}
+.game .numbers{width:100%;clear:both;font-size:24px;border-bottom:2px dashed #000;overflow:hidden;padding-bottom:5px;margin-bottom:5px}
+.game .numbers li{float:left;height:38px;width:41px;text-align:center;line-height:38px;list-style:none}
+.game img.ticket-code{display:block;position:absolute;bottom:10px;left:20px;float:none!important;margin:0}
+.game-2 p{float:left;font-size:24px!important;line-height:31px;color:#555;letter-spacing:-1px;height:100px}
+.game-2 .counters{float:left;width:260px}
+.game-2 .first-col{width:36%!important}
+.game-2 .second-col{width:64%!important}
+.game-2 .links{position:absolute;display:block;bottom:40px}
+.game-2 .links li{float:left;background:url(../images/template/spritesheet.png) no-repeat 0 -1983px;padding-left:15px;margin-right:30px}
+.game-2 .message{position:absolute;bottom:40px;right:40px;font-size:28px;line-height:28px;font-weight:700;color:#00966b;letter-spacing:-1px}
+.ticket-history{display:inline-block;border:1px solid #eaeaea;border-radius:8px 8px 0 0;padding:10px 15px 20px;font-size:18px;margin-bottom:-10px;overflow:hidden;border-bottom:none;z-index:99;color:#fff;background:#22e6aa;background:-moz-linear-gradient(top,  #22e6aa 0%, #079f70 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#22e6aa), color-stop(100%,#079f70));background:-webkit-linear-gradient(top,  #22e6aa 0%,#079f70 100%);background:-o-linear-gradient(top,  #22e6aa 0%,#079f70 100%);background:-ms-linear-gradient(top,  #22e6aa 0%,#079f70 100%);background:linear-gradient(to bottom,  #22e6aa 0%,#079f70 100%)}
+.ticket-history:hover{background:#25f7ad;background:-moz-linear-gradient(top,  #25f7ad 0%, #22e6aa 100%);background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#25f7ad), color-stop(100%,#22e6aa));background:-webkit-linear-gradient(top,  #25f7ad 0%,#22e6aa 100%);background:-o-linear-gradient(top,  #25f7ad 0%,#22e6aa 100%);background:-ms-linear-gradient(top,  #25f7ad 0%,#22e6aa 100%);background:linear-gradient(to bottom,  #25f7ad 0%,#22e6aa 100%);color:#fff}
+.matched{background:url(../images/vault/sprite-2.png) no-repeat -539px -106px}
+.game .prize-m{width:100%;text-align:center}
+.status-played p{ background:url(../images/template/alert-icon-big.png) no-repeat;padding:3px 10px 10px 90px;border-radius:8px;background-size:70px}
+.free-icon-archive{
+	background:url(../images/vault/sprite.png) no-repeat 10px -680px #0097fb;
+	background:url(../images/template/spritesheet.png) no-repeat -345px -122px,  -moz-linear-gradient(top,  #0097fb 0%, #006bb3 97%, #0082d9 97%);
+	background:url(../images/template/spritesheet.png) no-repeat -345px -122px, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0097fb), color-stop(97%,#006bb3), color-stop(97%,#0082d9));
+	background:url(../images/template/spritesheet.png) no-repeat -345px -122px, -webkit-linear-gradient(top,  #0097fb 0%,#006bb3 97%,#0082d9 97%);
+	background:url(../images/template/spritesheet.png) no-repeat -345px -122px, linear-gradient(to bottom,  #0097fb 0%,#006bb3 97%,#0082d9 97%);padding:15px 15px 15px 50px;margin-bottom:10px}
+
+/* Loader */
+.loading{position:relative;width:100%;overflow:hidden;min-height:180px}
+.loading svg{display:block;margin:0 auto;position:absolute;left:351px;z-index:99}
+.loading p{text-align:center;font-size:18px;margin-top:190px}
+.loading svg path, .loading svg rect{fill:#00df9c}
+.loading .countdown-timer{position:absolute;top:25px;left:375px;z-index:1;height:150px}
+
+/* Success Box */
+
+.success-box, .acc-notify{background:#fceeb4 ;overflow:hidden;padding:5%;text-align:center;width:90%;border-radius:8px}
+.success-box .container, .acc-notify  .container{width:100%}
+.success-box img{display:block;margin:0 auto 20px}
+.success-box .title, .acc-notify .title{font-size:28px;font-weight:700;color:#10a6ff;margin-bottom:20px}
+.success-box p{font-size:16px;width:740px;margin:0 auto}
+
+.acc-notify p{ font-size:16px;text-align:center;margin:0 auto 40px}
+.acc-notify img{display:block;margin:20px auto 40px}
+.acc-notify .btn{font-size:18px;padding:10px;margin:0 auto;width:260px;display:block;text-align:center}
+
+/* Choosing Numbers */
+
+.ticket .select-numbers .counters{position:relative;float:right;top:0;left:0;width:auto;margin-bottom:40px}
+.ticket .select-numbers .lower{float:left;width:100%}
+.ticket .select-numbers .row-1{float:left;width:100%; margin-bottom:40px;position:relative}
+.ticket .select-numbers .row-1  h2{color:#093e87;margin:15px 0}
+.ticket .select-numbers .row-1 ul.sub-menu{float:left;margin:25px 0 0 80px}
+.ticket .select-numbers .row-1 ul li{float:left;background:url(../images/vault/sprite-2.png) no-repeat;margin-right:90px;padding-left:15px}
+.ticket .select-numbers .row-1 ul a{font-size:14px;color:#fff}
+.ticket .select-numbers .x-box{float:right;width:200px;margin-bottom:0;color:#fff;cursor:pointer;clear:none;height:70px;border-radius:0;line-height:70px;padding:0 0 0 25px;position:relative;text-align:left}
+.ticket .select-numbers .x-box span{background:url(../images/vault/sprite-2.png) no-repeat -539px -670px;position:absolute;width:20px;height:20px;display:block;right:30px;top:25px}
+.ticket .select-numbers .x-box:hover{background:#ffd10f;color:#093e87}
+.ticket .select-numbers .x-box:hover span{background-position:-539px -731px}
+.ticket .select-numbers .row-2{background:#f4f4f4; width:848px;clear:both;margin:0;overflow:hidden;padding:20px;border-radius:8px; border:5px double #e8e8e8}
+.ticket .select-numbers .row-2 .top{border-bottom:1px solid #eaeaea;height:70px;margin-bottom:30px}
+.ticket .select-numbers .row-2 .top .btn{float:left;width:110px;padding:8px;margin-bottom:0;color:#fff;cursor:pointer;clear:none;text-align:center}
+.ticket .select-numbers .row-2 .top .btn:hover{color:#093e87}
+.ticket .select-numbers .row-2 .top .title{float:right;font-size:18px;color:#00966b;margin:10px 0 0}
+.ticket .select-numbers .row-2 .middle a{float:left;width:42px;height:42px;font-size:18px;text-align:center;line-height:40px;margin:6px;background:;border-radius:5px;color:#797979;border:1px solid #a9a9a9;text-decoration:none;-webkit-transition:all 50ms ease-in-out;-moz-transition:all 50ms ease-in-out;-ms-transition:all 50ms ease-in-out;-o-transition:all 50ms ease-in-out;transition:all 50ms ease-in-out}
+.ticket .select-numbers .row-2 .middle a:hover{text-decoration:none;background:#d4d4d4;-webkit-transition:all 50ms ease-in-out;-moz-transition:all 50ms ease-in-out;-ms-transition:all 50ms ease-in-out;-o-transition:all 50ms ease-in-out;transition:all 50ms ease-in-out}
+.ticket .select-numbers .ballSelected{background:#0d9!important;color:#fff!important;border-color:#0d9!important;text-decoration:none!important;outline:none;-webkit-transition:all 50ms ease-in-out;-moz-transition:all 50ms ease-in-out;-ms-transition:all 50ms ease-in-out;-o-transition:all 50ms ease-in-out;transition:all 50ms ease-in-out}
+.ticket .select-numbers .ballDisabled{border:1px solid #e1e1e1!important;color:#e1e1e1!important;-webkit-transition:all 50ms ease-in-out;-moz-transition:all 50ms ease-in-out;-ms-transition:all 50ms ease-in-out;-o-transition:all 50ms ease-in-out;transition:all 50ms ease-in-out}
+.ticket .select-numbers .ballDisabled:hover{background:none!important;cursor:default}
+.ticket .select-numbers .row-2 .middle .btn{float:left;width:110px;padding:8px;margin-top:20px}
+.ticket .select-numbers .row-2 .middle input[type="checkbox"]{float:right;color:#fff;font-size:14px;margin-top:10px}
+.ticket .select-numbers .row-2 .middle input[type="submit"]{border:0;margin-right:5px}
+.ticket .select-numbers .row-2 .bottom{float:left;clear:both;margin-top:50px;width:100%}
+.ticket .select-numbers .row-2 .bottom .title{font-size:18px;color:#00966b}
+.ticket .select-numbers .row-2 .bottom ul{float:left;margin-top:15px}
+.ticket .select-numbers .row-2 .bottom li{background:#0d9;width:60px;height:60px;font-size:40px;line-height:60px;text-align:center;padding:0;font-weight:700;color:#fff;margin-right:10px;border-radius:5px;list-style:none}
+
+/* Ticket History */
+
+.t-history{background:#f4f4f4;margin-bottom:40px;width:868px}
+.t-history .t-logo{width:80px}
+.t-history .t-logo img{display:block}
+.t-history .center{text-align:center}
+.t-history .right{text-align:right}
+.t-history td{border-bottom:1px solid #cdcdcd!important}
+.t-history tbody:last-child td{border-bottom:none}
+.t-history .date .icon-1, .t-history .date .icon-2{background:url(../images/vault/sprite-2.png) no-repeat 0 -1084px;padding-left:30px;display:block}
+.t-history .date .icon-2{background-position:0 -1131px;margin-bottom:0}
+.t-history .date strong{font-size:18px;color:#333}
+.t-history .balls ul{height:20px;border-top:1px dashed #000;border-bottom:1px dashed #000;padding:12px 0;width:180px}
+.t-history .balls ul li{width:30px;height:20px;float:left;border-radius:5px;font-weight:800;line-height:20px;font-size:16px;color:#000;text-align:center;font-family:"Courier", monospace, san-serif;list-style:none}
+.t-history .counters{float:right;width:210px}
+.t-history .counters .first-elem{margin-left:60px!important}
+.t-history .counters ul{float:right;margin:0 0 0 0;clear:both;width:auto!important}
+.t-history .counters .title{margin-top:-20px;margin-left:10px}
+.t-history .counters ul li{background:#ebebeb;color:#00966b;width:45px;height:30px;font-size:16px;line-height:30px;list-style:none}
+.t-history .counters span{text-align:center;font-size:10px}
+.t-history p{width:100%;margin:0 auto;text-align:right;clear:both}
+.t-history .balls strong{color:#333}
+.t-history .balls3{width:162px;display:block;float:right}
+.t-history .balls3 li{float:left;height:25px;width:25px;background:#00966b;text-align:center;line-height:25px;font-weight:700;font-size:18px;color:#fff;border-radius:5px;margin-right:2px;list-style:none}
+.t-history .balls3 .matched{background:#fe4e5b}
+.t-history .draw-date{width:140px}
+
+/* MY HOME */
+
+.myhome h1{float:none}
+.myhome .homeBox h2{font-size:30px!important;line-height:30px!important}
+.myhome .homeBox p{font-size:18px}
+.homeBox.free-lottery-box{height:258px;background:url(../images/vault/free-lottery-box-bg.jpg) no-repeat}
+.homeBox.my-tickets-box{height:258px;background:url(../images/vault/my-tickets-bg.jpg) no-repeat}
+.homeBox.pro-stats-box{height:258px;background:url(../images/vault/pro-stats-bg.jpg) no-repeat}
+.homeBox.syndicate{background:url(../images/vault/syndicate-bg.jpg) no-repeat;height:278px}
+.homeBox.free-lottery-box img{display:block;margin:20px auto 10px}
+.homeBox.free-lottery-box .button-blue{right:94px!important}
+.myhome .homeBox .counters{width:100%;height:100px;float:none}
+.myhome .homeBox .counters .title{color:#fff;text-align:center;float:none;width:100%}
+.myhome .homeBox .counters ul{margin:0 auto;float:none;width:150px}
+.myhome .homeBox .counters ul span{color:#fff}
+.myhome .homeBox .button-blue{position:absolute;bottom:20px;right:20px;height:20px;top:auto;padding-top:0px}
+.myhome .homeBox .button-blue:hover{bottom:18px}
+
+.banner{ position:relative;overflow:auto;}
+.banner li{ list-style:none;}
+.banner ul li{ float:left;}
+.big-promo-text{width:80%;font-size:24px;font-weight:700;height:50px;line-height:50px;padding:10px 0 0 20%;margin-bottom:10px}
+.big-promo-text .button-yellow{margin-left:20px}
+
+/* PROMO BOX */
+
+.promo-box-big, .promo-box-small{width:860px;padding:40px 20px;background:url(../images/vault/checker-promo-bg.jpg) no-repeat;overflow:hidden;height:460px;border-radius:8px}
+.promo-box-big .title, .promo-box-small .title{width:100%;text-align:center;font-size:30px;font-weight:700;color:#fff200;letter-spacing:-1px}
+.promo-box-big .sub-title, .promo-box-small .sub-title{font-size:18px;color:#fff;text-align:center;width:100%;margin-bottom:20px}
+.promo-box-big span{font-weight:700;color:#fff200}
+.promo-box-big .elem1, .promo-box-small .elem1{display:inline-block;width:380px;vertical-align:top;padding:20px}
+.promo-box-big p{color:#fff;font-size:24px;margin-bottom:20px}
+.promo-box-big img{display:inline-block}
+.promo-box-big ul li, .promo-box-small ul li{list-style:none;font-size:16px;color:#fff;padding-left:40px;background:url(../images/vault/star-icon.png) no-repeat;min-height:30px;margin-bottom:10px;padding-top:5px}
+.promo-box-big .bottom{padding:15px 20px 20px}
+.promo-box-big .bottom p{width:560px;font-weight:700;display:inline-block}
+.promo-box-big .bottom .button-yellow{float:right;margin:10px 70px 0 0}
+
+.promo-box-small{width:860px;padding:10px 20px 20px;background:url(../images/vault/checker-promo-bg.jpg) no-repeat;overflow:hidden;height:298px;margin-bottom:20px}
+.promo-box-small .title, .promo-box-small .sub-title{text-align:left;margin-bottom:20px}
+.promo-box-small .sub-title{ margin-bottom:10px}
+.promo-box-small .elem1{width:380px}
+.promo-box-small span{font-weight:700;color:#fff200}
+.promo-box-small  img{display:inline-block}
+.promo-box-small ul{margin-bottom:20px}
+.promo-box-small ul li{font-size:14px;margin-bottom:0;background:url(../images/vault/star-icon-small.png) no-repeat;padding:0 0 0 25px}
+
+.promo-box-small.lotto{background-image:url(../images/vault/promo-box-lotto.jpg)}
+.promo-box-small.euro{background-image:url(../images/vault/promo-box-euro.jpg)}
+.promo-box-small.irish{background-image:url(../images/vault/promo-box-irish.jpg)}
+.promo-box-small.thunder{background-image:url(../images/vault/promo-box-thunder.jpg)}
+.promo-box-small.health{background-image:url(../images/vault/promo-box-health.jpg)}
+.promo-box-small.free{background-image:url(../images/vault/promo-box-free.jpg)}
+
+/* SYNDICATES */
+
+.syndicates .news-small{height:320px;cursor:pointer}
+.syndicate-faq{background:url(../images/syndicate/faq-bg.jpg) no-repeat;padding:40px;width:820px;border-radius:8px}
+
+.faq-menu{width:100%;background:none!important;border:0!important}
+.faq-menu li{background:none!important;padding:0;margin:0;list-style:none;padding-left:0!important;}
+.faq-menu li a{font-size:16px;font-weight:700}
+.answer{padding:20px 40px;background:#f4f4f4;margin-bottom:20px;overflow:hidden;border-radius:8px}
+.answer.active{background-color:#0158a2;color:#fff}
+.answer.active a, .answer.active h3{color:#fff}
+.answer.active a:hover{color:#ffd10f}
+a.faq-top{background:#107AD4 url(../images/template/spritesheet.png) 13px -666px no-repeat;display:block;height:40px;width:40px;border-radius:6px;transition:all .3s linear;-webkit-transition:all .3s linear;float:right}
+a.faq-top:hover{background-color:#09F}
+
+.winner-box{padding:10px 20px 20px;background:#f4f4f4;width:860px;border-radius:8px;margin-bottom:20px;overflow:hidden}
+.winner-box img{margin:10px 20px 0 0}
+
+
+.FBPopup{position:absolute;right:-20px;bottom:80px;z-index:-1;background:none;opacity:0;-webkit-transition:opacity 400ms ease-in;-moz-transition:opacity 400ms ease-in;transition:opacity 400ms ease-in;pointer-events:auto}
+.showModal{opacity:1;filter:alpha(opacity=100);z-index:99}
+.hideModal{opacity:0;filter:alpha(opacity=0)}
+.FBPopup .box{width:300px;background-color:#F2F2F2;border-radius:5px;box-shadow:3px 3px 4px #333;position:relative}
+#closeFB{background:#f7f7f7;width:60px;height:25px;color:#333;text-align:center;line-height:25px;float:right;margin:13px 15px 0 0;cursor:pointer}
+#closeFB:hover{background:#fff}
+.FBPopup .box:after{background-color:#F2F2F2;box-shadow:-3px 3px 3px #333;content:"\00a0";display:block;height:20px;right:-125px;position:relative;top:10px;width:20px;transform:rotate( -45deg );-moz-transform:rotate( -45deg );-ms-transform:rotate( -45deg );-o-transform:rotate( -45deg );-webkit-transform:rotate( -45deg )}
+.FBPopup .head{background:url(../images/fb-logo.png) no-repeat #39599c 15px 9px;height:50px;width:100%;border-radius:5px 5px 0 0;margin-bottom:10px}
+.FBPopup .box p{color:#333}
+.FBPopup .box p, .FBPopup .box .button-alt{margin-left:15px}
+/* ------------------------------------------- */
+/* PRINT STYLES */
+/* ------------------------------------------- */
+
+@media print{
+	body{font-family:arial, sans-serif}
+	#sidebarLeft, #tabMenu, .dateTime, .socialContainer, .footerLinks, .breadcrumb{display:none}
+	.hf{background:#39F;position:relative;width:96%;padding:10px 2%;border-radius:8px}
+	.hf.footer{background:none}
+	.main, hf.footer, #siteContainer{padding:0 !important;margin:0}
+	.floatLeft{float:left}
+	.floatRight{float:right}
+	.table, div.table{background:none}
+	.table td, .table th, .tableCell{padding:4px;background:none;color:#333;text-shadow:none}
+	.table th, .subTable th{background:#CCC !important}
+	.table tr.alt td , .subTable tr.alt td{background:#EEE}
+	.result{position:relative;width:26px;height:26px;text-align:center;font:bold 20px/26px arial, sans-serif;background:none;letter-spacing:-1px;margin:0;top:0;border-radius:30px;border:2px solid #333;display:inline-block;z-index:1}
+	.result.euromillions-lucky-star{border:2px solid #F90}
+	.result.lotto-bonus-ball{border:2px solid #F00}
+	.result.thunderball-thunderball{border:2px solid #F09}
+	.result.irish-bonus-ball{border:2px solid #6C3}
+	.result.health-bonus-ball{border:2px solid #F60}
+	ul.bullet{background:none;border:0 !important}
+}
+
+/* ------------------------------------------- */
+/* 2 COLUMNS */
+/* ------------------------------------------- */
+.columns__wrap {width:100%; max-width: 700px; margin: 0 auto; }
+.column__item {width: 48%; padding:10px; box-sizing: border-box; margin-bottom: 20px; text-align: center; }
+.column__item:first-child {float:left; }
+.column__item:last-child {float:right; }
+.countdown--small {float: left; margin: 5px 0; } .countdown--small .counterPart {width:auto; height:auto; padding:2px 5px 5px 5px; margin-right:2px; }
+.countdown--small .counterType{font:10px/13px arial, sans-serif; }
+.countdown--small .counterVal{position:relative; font:18px/16px arial, sans-serif;} 
+.jackpot--white {font-size: 42px; }
+.button--yellow{background: #FC0; background:-moz-linear-gradient(top,  #ffde00 0%, #ffa200 97%, #ffd800 97%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffde00), color-stop(97%,#ffa200), color-stop(97%,#ffd800)); background:-webkit-linear-gradient(top,  #ffde00 0%,#ffa200 97%,#ffd800 97%); background:linear-gradient(to bottom,  #ffde00 0%,#ffa200 97%,#ffd800 97%); padding:5px 20px; }
+
+
+/* WIDGET BANNER */
+.widget.nextBox {padding: 0 5px 0 0;}
+#JackPotForm {color: #FFF; font-size: 11px; text-align: center;}
+#JackPotForm p {padding: 5px 0; margin: 0; text-align: center; color: #FFF; font: bold 12px/16px arial;}
+span.linky {color: #FD0; cursor: pointer; text-decoration: underline;}
+span.linky:hover {color: #FF0;}
+.input-number, .input-joker {margin: 2px 0;}
+input[type=submit].button{width: 348px;}
+.input-number, .input-joker {background: #FFF; border: none; -webkit-appearance: none; width: 32px; height: 32px; text-align: center; font: bold 18px/32px arial; color: #0158A2; border-radius: 4px; padding: 0;}
+.input-joker {background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAgCAYAAAB3j6rJAAABtUlEQVR4AWKgFLDZlDEzDAYAKL4uVF6JgTAMU3d3d/fO/d/beYHhEELTdjf7d4EH6doXm6QEmaIRd4g8njgjEWeQNUR14wpRhhhuSMcR5ACxjH4doglRd4h6IvOrEAlcIKqDBUQtfhWkD1FnDZbD0+iV4l+HSOMGUXXj2hiiNn/x8STK6GIHUbsPIWdooRi2xVX0scQJ4lB68XzXce8TBw3XQQkJ++EMVrhCvrR8M5HPkC+dMPkfSlOKwxUbDNFA7oueLaKFCXZ4ON59R9G5GtQKmYj3JbO3Hii7bh5bYToR1p6lNWeqnx6aWWGaEQSZWSEaYdPXPULYvdwO2pUbK0zFpwqrXthCtrcmVy7A8w3/ndk4j5r1JWCQtrkCo5jxN2N4EgGeq3jvyNbwiLoEfDYHUXvfIAWI2jruySLlmPBPCK6+QeoQNX9RxhfGRB7bldg6QCV8gpi76dAY+82bXXaGvN67dUx0r2I0t5azcm5oS+v+qk+QFcThhgHSyGOGJ8ShHfVfhgu6SL64P4Oxo5eG3jVEHdFC4suT3sB6fuFbQ/aoe7yjiyv2Pif2SoTnkdq7e/4BWH05krPCLdwAAAAASUVORK5CYII=) #FC0 center no-repeat; color: #FFF;}
+.trash {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA3CAMAAACmYpMvAAAAGFBMVEUAAAD///////////////////////////8jfp1fAAAAB3RSTlMAe+8N108l2Ew7sQAAAJhJREFUeNrt1MsOwyAMRFE/xvb//3E3k4CUFrNrFpxVhG4QCMlCFLCLyoqjhpAFrQlkITUm8oUn+exem6+xpmxRLSRvsZdGbVFu2bMQ1J4Q3ZRCWxzWCZZWnTeVmnqtJ/iGEXiW8PsXkRhP2JRppzzlKU/599JckhOumWAFRTFQG19zKaiGJUutBoQc/fCmXKcqgyt+Uh7yAzcPJIFLeZfbAAAAAElFTkSuQmCC) transparent center no-repeat;
+	background-size: 15px; width: 15px; height: 23px; display: inline-block; position: relative; top: 4px;
+}
+input[type=submit].button-yellow {display:block; cursor: pointer; font: bold 14px arial; width: 100%; top: 10px;}
+.widget .clockBox {width: 90px; height: 75px;}
+.widget .clockBox img {max-width: 100%;}
+.qpt {display: inline-block;}

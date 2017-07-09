@@ -43,3 +43,8 @@ Route::get('/login/callback/{provider}', 'Auth\LoginController@loginCallback');
 |
 */
 Route::get('/dashboard', 'AccountController@dashboard');
+Route::get('/buy-ticket', 'AccountController@buyTicket'); 
+
+
+
+

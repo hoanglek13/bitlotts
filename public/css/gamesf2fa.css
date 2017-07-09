@@ -1,0 +1,3 @@
+.gamesBox {background:#fff; color: #FFF; width: 240px; height: 280px; line-height: 16px; font-size: 12px; padding: 10px 30px; border-radius: 6px; overflow: hidden;}
+.gamesBox a {position: absolute; margin-top: 230px; right: 20px; padding: 6px 50px 6px 30px; z-index: 8;}
+.gamesBox > div {border-radius:6px;}

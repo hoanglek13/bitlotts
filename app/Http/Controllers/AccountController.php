@@ -15,4 +15,9 @@ class AccountController extends Controller
         return view('account.dashboard');
     }
 
+
+    public function buyTicket(Request $request){
+        return view('account.buy');
+    }
+
 }
